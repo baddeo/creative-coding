@@ -1,0 +1,88 @@
+/* .CODE */
+
+	.code pre
+	{
+		text-align: center;
+
+	}
+
+	.reveal pre code .tag .title 
+	{
+		color: inherit;
+	}
+
+/* #WWW */
+
+	#www img
+	{
+		width: 33.3333%;
+		position: relative;
+	}
+
+	#www img.left
+	{
+		float: left;
+	}
+
+	#www img.right
+	{
+		float: right;
+	}
+
+	#www .browser
+	{
+		top: 130px;
+	}
+
+	#www .html
+	{
+		padding: 10%;
+		width: 13.3333%;
+		top: 76px;
+	}
+
+	#www .server
+	{
+		
+	}
+
+	#www .arrow
+	{
+		position: absolute;
+		top: 62%;
+	}
+
+	#www .arrow.left
+	{
+		left: 36%;
+	}
+
+	#www .arrow.right
+	{
+		left: 60%;
+	}
+
+/* #HTML */
+
+	#html code
+	{
+		background: transparent;
+		font-size: 1.5em;
+	}
+
+	#html pre
+	{
+		position: relative;
+		top: -210px;
+		margin-bottom: 20px;
+	}
+
+	#html img
+	{
+		position: relative;
+		top: 185px;
+		width: 130px;
+	}
+
+	
+
