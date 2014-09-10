@@ -3,10 +3,15 @@
 1. Search for Webmaker
 * Go to Webmaker and sign up (introduce Persona)
 * Search for [Web comic template](https://webmaker.org/en-US/search/?type=all&q=web+comic+template), hit **Remix**
-* Explain `<html>`, `<head>` and `<body>` (the **skeleton**)
-* Change `<title>` and `<p>` (the first sentence of your comic)
-* Save and preview (if you add `_` at the end of the published URL you get a clean, iframe-less page)
-* Make a panel
+* Explain `<html>`, `<head>` and `<body>` as the **skeleton** of any webpage.
+
+ 	`<body>` is the visible part of an HTML page. 
+* Inside the code, find the line that says `I'm about to make a Web Comic`, change it.
+* Save and preview
+	
+	If you add `_` at the end of the published URL you get a clean, iframe-less page
+	
+* Make an empty panel.
 
         <section>
 	    </section>	
@@ -157,7 +162,7 @@
 
 
 
-## Notes
+# Notes
 
 ### About the code
 * ~~Do we need the `padding-left: 10px` on the body? No.~~
@@ -191,18 +196,73 @@
 
     The background image is scaled, preserving its proportions, to be as large as possible so that the background positioning area is *completely covered* by the background image
 
-* Do we need *How do you **make a speech bubble arrow**?* eg: Noble Denim
+* ~~Do we need *How do you **make a speech bubble arrow**?* eg: Noble Denim~~
+
+##### 10.09
+
+* No need to change the `<title>` at the beginning, it seems to confuse people (as it's not immediately visible). They'll change it later by themsleves, also they don't really know what they may want to title their comic so it's a big ask at the beginning.
+
+* When introducing `position:absolute` some people's images will fly off, because they're not inside `<section>`
+
+
+
 
 ### About the tutorial
 
-* Encourage students to note down their questions and answer them at the "end".
+* Encourage students to **note down their questions** and answer them later (unless they're stuck and something is not working).
+
 * Point out that comments are useful to take notes, and to hide code from the browser.. and comment code as you go along
+
 * Encourage students to search for HTML and CSS solutions on the Web (Stack Overflow)
+
 * If students get stuck, they can work together on the same project by hitting their username on the top-right, then clicking on *Collaborate* (it will slow down the browser but it can be useful for debugging)
+
 * Mention [Dash](https://dash.generalassemb.ly/) and [Codecademy](http://www.codecademy.com/) for those who want to take their coding further.
+
+
+#### 10.09
+
+* Maybe we start from a *blank* template? Add a `<section>` then save, view it in a new tab. 
+	
+	**Inspect it**. This way we can introduce styling. Copy the `element.style {
+background: yellow;
+height: 300px;
+}` from the Inspector into their project to get stylin'
+
+* Get them to follow me and use the same images etc, and then set them free in the afternoon?
+
+* Maybe a whiteboard to **sketch out / wireframe** the comic would be helpful? Or I could show them what we're aiming to do together (something like [the finished comic](https://baddeo.makes.org/thimble/ODI3NTg4ODY0/the-www-restaurant)), explaining what we're going to learn by making it.
+
+* Give `id`s to sections from the start, so that we do it the right way. Maybe introduce `id` on the section by giving it a different `background`.
+
+* Make 2 speech bubbles in the same panel, then `position` them
+
+* `id` and `class` names should be simple, `panel1` is bettern than `panel-1` for instance
+
+* One student said a print-out cheat-sheet of sorts could be helpful
+
+* Embed a youtube video, a Google map and a Twitter feed after the `float:left` task. We can start by embedding a whole page via iframe (instead of another image)
+
+* We need to get people as close to the projector as possible. Also a close, quiet room works better than an open space. 
+
+* Point out that we can remix other people's comics so if you're falling behind you can catch up that way.
+
+* I don't want to discourage people from asking questions, but some of them I can postpone to answer later. Maybe make the rules clear at the beginning of the coding session.
+
+	*If you're **getting stuck** or falling behind, please tell me straight away. Sometimes it's just a matter of a missing semi-colon or so..* 
+	
+	*If you have an **idea** and want to know how to code it, I may not answer that immediately but note it down and we'll crack it later.* 
+	
+* Need to **show comments** in HTML and CSS and explain why they're useful. Make a point to use a comment at the beginning and then try to use them throughout.	
+
+
 
 ### About Thimble
 
 * When the preview reloads it shouldn't scroll to the top of the page but *remember* where we've scrolled
 * Embedding Google Fonts may generate a "400" Failed to load resource (Bad request): can be solved by removing `http:` in the the Google Font CSS link href `<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>`
-* It would be great to have separate files for CSS and HTML (like Decoded's editor)
+* It would be great to have separate files for CSS and HTML 
+* It would be very useful to be able to collapse elements, both for explanation purposes and to declutter your page while you work..
+* If you misspell `absolute` it doesn't turn red
+* If you have 2 }} it doesn't turn red
+* Keep getting an error when trying to save [this Maker Party Report](https://baddeo.makes.org/thimble/maker-party-report).

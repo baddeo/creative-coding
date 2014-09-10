@@ -138,3 +138,29 @@ However as a *creative professional in the 21st century*, you can’t be Web-ill
 Being Web-literate will enable you to use the Web as an open platform, a place where you can be a **maker**, instead of a **consumer**. 
 
 Start **creating and curating your own Web presence**. Establish your voice online. 
+
+
+
+# Notes
+
+##### 10.09
+
+* Should explain the difference between HTML and CSS before we start coding? Maybe there should also be a slide for CSS?
+
+* Instead of `<b>` show `<a>`
+
+* *Spot the difference* at the beginning of the presentation, when talking about "what is code" and the pedantic friend thing.
+	
+* Do we need to end with the *Become Web-literate* slide? Or perhaps something more practical, like 
+
+	*Go online, find Webmaker and sign up.*
+
+* I don't want to discourage people from asking questions, but some of them I can postpone to answer later. Maybe make the rules clear at the beginning of the coding session.
+
+	*If you're **getting stuck** or falling behind, please tell me straight away. Sometimes it's just a matter of a missing semi-colon or so..* 
+	
+	*If you have an **idea** and want to know how to code it, I may not answer that immediately but note it down and we'll crack it later.* 
+	
+* Instead of asking people for *a / their favourite website*, just use Facebook and change its header `background` to demostrate that you can inspect&tinker with any website.	
+ 
+
