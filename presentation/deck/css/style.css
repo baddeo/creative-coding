@@ -1,14 +1,15 @@
-/* .CODE */
+/* #SPOT */
 
-	.code pre
+	#spot > *
 	{
-		text-align: center;
-
+		position: absolute;
+		width: 100%;
+		top: -150px;
 	}
 
-	.reveal pre code .tag .title 
+	#spot .fragment
 	{
-		color: inherit;
+		top: 0;
 	}
 
 /* #WWW */
@@ -41,11 +42,6 @@
 		top: 76px;
 	}
 
-	#www .server
-	{
-		
-	}
-
 	#www .arrow
 	{
 		position: absolute;
@@ -65,9 +61,8 @@
 /* #HTML */
 
 	#html code
-	{
-		background: transparent;
-		font-size: 1.5em;
+	{	
+		font-size: 1em;
 	}
 
 	#html pre

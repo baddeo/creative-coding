@@ -181,6 +181,7 @@ body {
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
 }
 
+/* OVERRIDES */
 body {
   background-color: transparent;
   background: url("http://baddeo.com/stylesheets/images/body_background.png");
@@ -191,6 +192,12 @@ body {
 }
 .reveal h2 {
   font-size: 2em;
+}
+.reveal h2, .reveal h3 {
+  font-family: 'Museo300', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.reveal h2 b, .reveal h3 b {
+  font-family: "Museo700", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .reveal p {
   margin-bottom: 0.6em;
@@ -221,6 +228,7 @@ body {
 .reveal .slides section img {
   border: none;
   box-shadow: none;
+  background: transparent;
 }
 .reveal .slides section .rounded {
   border-radius: 120px;
@@ -284,4 +292,31 @@ a:hover {
 
 .lowercase {
   text-transform: lowercase !important;
+}
+
+/* UTILS */
+[contenteditable]:active,
+[contenteditable]:focus {
+  border: none;
+  outline: none;
+}
+
+/* .HAS-CODE */
+.reveal .has-code pre {
+  text-align: center;
+}
+.reveal .has-code code {
+  background: transparent;
+  font-size: 1.5em;
+}
+
+.reveal pre code .tag .title {
+  color: inherit;
+}
+
+.pseudo-code {
+  text-transform: none !important;
+}
+.pseudo-code b {
+  color: #0095d7;
 }
