@@ -1,22 +1,225 @@
 # HACKtivity
 
+#### Before we start
+
+- If you're **getting stuck** or falling behind, please tell me straight away. Sometimes it's just a matter of a missing semi-colon or so..
+	
+- If you have an **idea** and want to know how to code it, I may not answer that immediately but note it down and we'll crack it later.
+
+
+
+#### Let's code
+
 1. Search for Webmaker
-* Go to Webmaker and sign up (introduce Persona)
-* Search for [Web comic template](https://webmaker.org/en-US/search/?type=all&q=web+comic+template), hit **Remix**
-* Explain `<html>`, `<head>` and `<body>` as the **skeleton** of any webpage.
+* Go to Webmaker and sign in (with Persona)
+* Search for [Web comic template](https://webmaker.org/en-US/search/?type=all&q=web+comic+template), hit **Remix*** 
+* Explain `<html>`, `<head>` and `<body>` as the **skeleton** of every and any webpage. **Like a person**, it has a head and a body.
 
  	`<body>` is the visible part of an HTML page. 
-* Inside the code, find the line that says `I'm about to make a Web Comic`, change it.
+* Inside the code on the left, find the line that says `I'm about to make a Web Comic`, change it.
 * Save and preview
 	
-	If you add `_` at the end of the published URL you get a clean, iframe-less page
+	**Pay attention here** If you add `_` at the end of the published URL you get a clean, iframe-less comic.
 	
-* Make an empty panel.
+- Right-click, `Inspect Element`. 
+
+	This is the **Web Inspector**, where you can see every page's *source code*, *styles* and much more. 
+	
+	When you hover over the source code with your mouse, the corresponding HTML element on the page will light up. 
+	
+	When you click on an HTML tag in the source code (on the **left**), you'll see all its styles (on the **right**).
+
+- Change the `p` red. Explain this is a **temporary change**.
+
+- **Show the finished comic**. 
+
+	We've got our first line, next step is to create the basic structure of the comic. 
+	
+	Each key moment in a comic is framed by a **panel**, each **section** of the comic is a panel.
+	
+	In HTML we have an element called `section` which we can use to frame things.
+
+- Create an **empty panel/section**. 
 
         <section>
 	    </section>	
 	    
-* Make the *empty* panel visible with CSS. 
+* **Comment** that. 
+
+* Let's **add images** to get our comic off the ground.
+
+	We'll use the browser-waiter image from IMGUR.
+	![](http://i.imgur.com/Seem5xZ.png)
+	
+	Point people to **[baddeo.imgur.com](http://baddeo.imgur.com)** (later in the day they'll be able to use their own images)
+	
+	**Nest it** inside the first panel.
+	
+* Ask **students to make another panel** under the first one.	
+* Ask **students to add another image**.
+	
+	We'll use the server-chef image from IMGUR.
+	![](http://i.imgur.com/CxzZKlF.png)	
+	
+* Now that we have images, we can start writing our story. 
+
+	In comics, you can use **speech bubbles** to make your characters "talk".	
+	
+* Add **one paragraph** to the first section, and **two paragraphs** to the second section.
+
+	`<p>Hello, I'm your browser. What do you want?</p>`
+	
+	`<p>I'm the server, just got an HTTP request from the browser</p>`
+	
+	`<p>Now I'm cooking an HTML page</p>`
+	
+* Create the **third panel/section**.
+
+* Add the happy browser to it
+	
+	![](http://i.imgur.com/s4apyQC.png)
+	
+* Add a **speech bubble** to the third panel/section.	
+	`<p>Here's your page as requested. Would you like a cookie with it?</p>`
+	
+* Add a **link** to a page that explains what cookies are. **Ask students to search** and find out. Then **paste** their URL of choice inside their comic.	
+
+	`<p>Here's your page as requested. Would you like <a href="http://www.bbc.co.uk/webwise/guides/about-cookies">a cookie</a> with it?</p>`
+	
+* Create the **fourth panel/section**.
+
+* We want to be a bit *meta* (self-referential) and **embed** the page itself into our comic. A bit like an endless mirror.
+
+	We can use `iframe` to do that.
+	
+	`<iframe src="https://blabla.com"></iframe>`
+	
+	This allows you to embed pretty much anything into a web-page.
+	
+	There's a **limitation** on Thimble (it only seems to work with websites served over `https`)
+	
+	Also **some companies don't allow** you to embed their websites. For instance if you want to embed something from Twitter, you can't simply paste the URL into it but have to follow their instructions.
+	
+	
+	
+	
+* Now we've got **all our content marked-up**. 
+
+	So we're **done with HTML**, the browser knows about all the content of our comic.
+	
+	But the browser doesn't know how to **style** it. It simply **stacked** all the ingredients of our comic one on top of one another. We need to change that, right? 
+
+* Let's **save** and head over to the *Inspect tab*.
+
+	On the **left** of the Inspector we can see the HTML code of our comic.
+	
+	On the **right** there's the style. Well there's not much of it atm.
+	
+* Add a `background: yellow;` to the first panel, then to the second and third panel.. this is a **pain**! 
+
+	We need a way to tell the browser to style all the panels the same way. Some sort of **style guide**..
+	
+	Meet **CSS**. It stands for ***C**ascading **S**tyle **S**heets* and it's the **language** you can use to tell your browser to change colours, sizes and many other **stylistic** aspects of your HTML documents.
+	
+	
+* Copy the `element.style {...}` from the Inspector into the *Editor tab*, inside the `<style>` in the `<head>`.	
+	
+	We want to tell the browser to give **every section** a yellow background.
+	
+	Change `element.style` to `section`
+	
+	Point out that this is a different language, with a **different grammar**. 
+	
+	HTML is for **content and structure**.
+	
+	CSS is for **style and design**.
+	
+* **Ask students** how we can go about **styling the speech bubbles**. 
+
+	One way would be to assume that each `<p>` inside a `<section>` is a speech bubble, and target them specifically like this with CSS
+	
+	`section p {}` 
+	
+	Point out that it's **good practice** to always open and close the **curly brackets** to avoid forgetting it and confusing the browser.
+	
+	  section p
+      {
+        background: pink;
+        padding: 10px;
+      }
+      
+* Now we want to **position** our speech bubbles inside the panels.
+
+	We want to say something like "browser, **offset** this speech bubble 50px from the top and 100px from the left".
+	
+	`top: 50px;`
+	
+	And the browser will say "ok, but 50px from the **top of what?**"
+	
+	So we want the browser to disregard the order in which the speech bubbles appear in the HTML, to be **absolute**
+	
+	`position: absolute;`
+	
+	The bubbles fly off, so we need to set them relative to their sections. hmmm
+	
+	`position:relative;`
+	
+	
+	
+	
+
+
+	`position` defines how an element can be moved with **offsets** (`top`, `right`, `bottom` and `left`).
+	
+	`position:relative` offsets an element in relation to **itself**
+	
+	`position:absolute` offsets an element in relation to its **first, non-static ancestor**     
+
+	
+	Introduce classes and ids
+	
+	Introduce position relative and absolute	
+	
+		
+
+	
+	 
+	
+	
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+## OLD	
+	
+	
+
+* Save and go to the *Inspect tab*. Point out that the `<section>` is there but it has **zero height**.
+
+* Make the *empty* panel visible on the right side of the Inspector.
+
+	`element.style { height: 300px; background: yellow; }`
+
+
+* Copy the style from the Inspector into the *Editor tab* to get styling.
+
+	Point out that this is a different language, with a **different grammar**. 
+
  
 	**CSS** stands for ***C**ascading **S**tyle **S**heets* and it's the language you can use to tell your browser to change colours, sizes and many other *stylistic* aspects of your HTML documents.
 	
@@ -31,9 +234,10 @@
         	width: 100%; 
         	required? yes because we'll add a float:left; later
         }
-        
- * Make a point that CSS is a **separate document** in the real world.       
- * **Students make another panel** under the first one.
+               
+
+
+
  * Add `margin` to **separate** the panels.
 		
 		margin-bottom: 10px;
@@ -56,10 +260,7 @@
 
  	We can **offset** it with `top` and `left`.
  	
-* **Students add another image**.
-	
-	We'll use the server-chef image from IMGUR.
-	![](http://i.imgur.com/CxzZKlF.png)
+
  	
 * We want it to **stick** to the right of its panel. Let's use `position:absolute` with `right` and `bottom`
  	
@@ -117,11 +318,27 @@
 	
 	Follow the instructions to include your chosen font in your page.
 	
+
+ 
+
+
+
+
+
+	
+
+## Optionals
+
+
+* **Ask students to embed a Youtube video** in their comic.
+* **Ask students to embed a Google map** in their comic.
+* **Ask students to embed a Twitter widget** in their comic.
+
 * Give your comic a heading `<h1>` and a subheading `<h2>` 
 
 	Maybe introduce `<b>` and `<i>`?
-		
-* OPTIONAL Make the arrow
+	
+* Make the arrow
 
 
         .bubble:after
@@ -146,21 +363,7 @@
 	
 
 
- 
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
+## 
 
 # Notes
 
@@ -247,13 +450,18 @@ height: 300px;
 
 * Point out that we can remix other people's comics so if you're falling behind you can catch up that way.
 
-* I don't want to discourage people from asking questions, but some of them I can postpone to answer later. Maybe make the rules clear at the beginning of the coding session.
+- [x] I don't want to discourage people from asking questions, but some of them I can postpone to answer later. Maybe make the rules clear at the beginning of the coding session.
 
 	*If you're **getting stuck** or falling behind, please tell me straight away. Sometimes it's just a matter of a missing semi-colon or so..* 
 	
 	*If you have an **idea** and want to know how to code it, I may not answer that immediately but note it down and we'll crack it later.* 
 	
 * Need to **show comments** in HTML and CSS and explain why they're useful. Make a point to use a comment at the beginning and then try to use them throughout.	
+
+#### 11.09 
+
+* Set the browser tabs to 125% (Editor) - 200% (Inspect) zoom
+
 
 
 
