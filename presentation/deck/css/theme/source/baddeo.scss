@@ -62,14 +62,11 @@ $orange: 		#FF8036;
 $pink: 			#F5367C; // #FF5E99;
 
 // Override theme settings (see ../template/settings.scss)
-// $mainFont: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $mainFont: 'Caecilia', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $mainColor: $dark-blue;
 $mainFontSize: 36px;
 
 // headings
-// $headingFont: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-// $headingFont: 'League Gothic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $headingFont: 'Museo700', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $headingColor: $mainColor;
 $headingTextShadow: none;
@@ -94,189 +91,247 @@ $selectionColor: $yellow;
 // ---------------------------------------------
 
 
-// overrides
+/* OVERRIDES */
 
-body 
-{
-	background-color: transparent;
-	background: url('http://baddeo.com/stylesheets/images/body_background.png');	
-}
-
-.reveal
-{
-	h1 { font-size: 3em; }
-	h2 { font-size: 2em; }
-
-	p
+	body 
 	{
-		margin-bottom: 0.6em;
-	}
-	
-	.progress
-	{
-		// background: $yellow;
-		background: rgba($blue, 0.2); // rgba(0, 0, 0, 0.2);
-		height: 12px;
-		top: 0;
+		background-color: transparent;
+		background: url('http://baddeo.com/stylesheets/images/body_background.png');	
 	}
 
-	.controls 
+	.reveal
 	{
-		div
+		h1 
+		{ 
+			font-size: 3em; 
+		}
+		
+		h2 
+		{ 
+			font-size: 2em;
+		}
+
+		h2, h3
 		{
-			transition: 0.3s all; 
-			&.enabled
+			font-family: 'Museo300', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+			b
 			{
-				opacity: 1;
+				font-family: 'Museo700', 'Helvetica Neue', Helvetica, Arial, sans-serif
+			}
+		}
+
+		p
+		{
+			margin-bottom: 0.6em;
+		}
+		
+		.progress
+		{
+			// background: $yellow;
+			background: rgba($blue, 0.2); // rgba(0, 0, 0, 0.2);
+			height: 12px;
+			top: 0;
+		}
+
+		.controls 
+		{
+			div
+			{
+				transition: 0.3s all; 
+				&.enabled
+				{
+					opacity: 1;
+				}
+			}
+		}
+
+		.slides
+		{
+			section
+			{
+				.quiet
+				{
+					opacity: 0.2;
+				}
+
+				.fragment
+				{
+					opacity: 0;
+
+					&.visible
+					{
+						&.quiet
+						{
+							opacity: 0.2;
+						}
+					}
+				}
+
+				.blue
+				{
+					color: $blue;
+				}	
+
+				img
+				{
+					border: none;
+					// box-shadow: 0 0 24px rgba($blue, 0.3);
+					box-shadow: none;
+					background: transparent;
+				}
+
+				.rounded
+				{
+					border-radius: 120px;
+				}
+			} 
+		} 
+
+		pre
+		{
+			box-shadow: none;
+			width: auto;
+			// margin: 0;
+			margin: 0 -4%;
+			font-size: 1.3em;
+			line-height: 1;
+
+			code
+			{
+				padding: 0 12px;
+				background: rgba($blue, 0.1);
+				color: inherit;
+				border-radius: 24px;
+				transition: 0.6s background ease;
+				max-height: 100%;
+				word-wrap: break-word;
+				font-family: 'Museo700';
+				word-spacing: 0.1em;
+				letter-spacing: 0.03em;
+
+				&:focus
+				{
+					outline: 0;
+					background: rgba($blue, 0.2);
+				}
+
+				.tag
+				{
+					color: $blue;
+
+					.title
+					{
+						color: $dark-blue;
+					}
+
+					.attribute
+					{
+						// color: $dark-green;
+						// color: $light-purple;
+						// color: $purple;
+						// color: $pink;
+						// color: $yellow;
+						// color: $green;
+						// color: $orange;
+						color: $blue;
+					}
+
+					.value
+					{
+						// color: $dark-green;
+						// color: $green;
+						// color: $purple;
+						// color: $yellow;
+						// color: $blue;
+						// color: $orange;
+						color: $pink;
+					}
+				}
+
+				&.css
+				{
+					.tag
+					{
+						color: $dark-blue;
+					}
+
+					.class,
+					.attr_selector
+					{
+						color: $pink;
+					}
+
+					.rules
+					{
+						color: $blue;
+
+						.rule
+						{
+							.attribute
+							{
+								color: $dark-blue;
+							}
+
+							.value
+							{
+								color: $dark-blue;
+							}
+						}
+					}
+				}
 			}
 		}
 	}
 
-	.slides
+	a, 
+	a:hover
 	{
-		section
-		{
-			.quiet
-			{
-				opacity: 0.2;
-			}
+		transition: 0.3s all;
+	}
 
-			.fragment
-			{
-				opacity: 0;
+	.lowercase
+	{
+		text-transform: lowercase !important;
+	}
 
-				&.visible
-				{
-					&.quiet
-					{
-						opacity: 0.2;
-					}
-				}
-			}
+/* UTILS */
 
-			.blue
-			{
-				color: $blue;
-			}	
-
-			img
-			{
-				border: none;
-				// box-shadow: 0 0 24px rgba($blue, 0.3);
-				box-shadow: none;
-			}
-
-			.rounded
-			{
-				border-radius: 120px;
-			}
-		} 
+	// from http://blog.frankmtaylor.com/2012/01/23/html5-contenteditable-and-css/
+	[contenteditable]:active,
+	[contenteditable]:focus
+	{
+		border:none;
+		outline:none;
 	} 
 
-	pre
+/* .HAS-CODE */
+
+	.reveal .has-code 
 	{
-		box-shadow: none;
-		width: auto;
-		// margin: 0;
-		margin: 0 -4%;
-		font-size: 1.3em;
-		line-height: 1;
+		pre
+		{
+			text-align: center;
+		}
 
 		code
 		{
-			padding: 0 12px;
-			background: rgba($blue, 0.1);
-			color: inherit;
-			border-radius: 24px;
-			transition: 0.6s background ease;
-			max-height: 100%;
-			word-wrap: break-word;
-			font-family: 'Museo700';
-			word-spacing: 0.1em;
-			letter-spacing: 0.03em;
-
-			&:focus
-			{
-				outline: 0;
-				background: rgba($blue, 0.2);
-			}
-
-			.tag
-			{
-				color: $blue;
-
-				.title
-				{
-					color: $dark-blue;
-				}
-
-				.attribute
-				{
-					// color: $dark-green;
-					// color: $light-purple;
-					// color: $purple;
-					// color: $pink;
-					// color: $yellow;
-					// color: $green;
-					// color: $orange;
-					color: $blue;
-				}
-
-				.value
-				{
-					// color: $dark-green;
-					// color: $green;
-					// color: $purple;
-					// color: $yellow;
-					// color: $blue;
-					// color: $orange;
-					color: $pink;
-				}
-			}
-
-			&.css
-			{
-				.tag
-				{
-					color: $dark-blue;
-				}
-
-				.class,
-				.attr_selector
-				{
-					color: $pink;
-				}
-
-				.rules
-				{
-					color: $blue;
-
-					.rule
-					{
-						.attribute
-						{
-							color: $dark-blue;
-						}
-
-						.value
-						{
-							color: $dark-blue;
-						}
-					}
-				}
-			}
+			background: transparent;
+			font-size: 1.5em;
 		}
 	}
-}
 
-a, 
-a:hover
-{
-	transition: 0.3s all;
-}
+	.reveal pre code .tag .title 
+	{
+		color: inherit;
+	}
 
-.lowercase
-{
-	text-transform: lowercase !important;
-}
+	.pseudo-code
+	{
+		text-transform: none !important;
 
+		b
+		{
+			color: $blue;
+		}
+	}	
