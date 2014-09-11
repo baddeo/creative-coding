@@ -26,47 +26,69 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
 
-        <section>
+        <section data-transition-speed="fast">
           <h2>Does it work?</h2>
           <aside class="notes">
             <p>These are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window</p> 
             <p>Hit <code>s</code> on your keyboard.</p>
           </aside>
         </section>
-        <section>
-          <h2>It works</h2>
+        <section data-transition-speed="fast">
+          <h2>It <b>works</b></h2>
         </section>
 
-        <section>
+        <section id="cc">
           <h1>Creative Coding</h1>
         </section>
 
-        <section data-transition="linear" data-transition-speed="fast">
+        <section id="me" data-transition="linear" data-transition-speed="fast">
           <h2>Matteo</h2>
-          <h1>@baddeo</h1>
+          <h1><a href="https://twitter.com/baddeo" target="_blank">@baddeo</a></h1>
           <aside class="notes">
-            <p>You can call me Matteo.</p>
+            <p>You can call me Matteo, not <i>sir</i>.</p>
             <p>You <del>can</del> must follow me on Twitter <strong>@baddeo</strong>.</p>
           </aside>
         </section>
 
-        <section>
+        <section id="code">
           <h2>What is</h2>
           <h1>code?</h1>
-          <!-- <h1>&lt;code&gt;?</h1> -->
           <aside class="notes">
-            <p>It's <strong>instructions</strong> to a computer, your most pedantic friend.</p>
-            <p>Code is executed by <strong>machines</strong>, and written by <strong>people</strong>.</p>
+            <p><strong>Where</strong> is code? Is there code in this (phone/computer/presentation..)</p>
+            <p>It's <strong>instructions</strong> to a computer: extremely powerful, fundamentally thick.</p>
           </aside>
         </section>
 
-        <section>
+        <section id="pedantic" data-transition="linear" data-transition-speed="fast">
+          <img src="http://i.imgur.com/ZBdFwbA.png">
+          <aside class="notes">
+            <p>Imagine a computer is your most pedantic friend: <strong>break down</strong> every step, be <strong>precise</strong>, it will take you <strong>literally</strong>.</p>
+          </aside>  
+        </section>
+
+        <section id="spot" class="has-code" data-transition="linear" data-transition-speed="fast">
+          <h2>Spot the <b>difference</b>s</h2>
+          <div class="fragment fade-out" contenteditable>
+            <h3 class="pseudo-code"><b>&lt;p&gt;</b>Hello<b>&lt;/p&gt;</b></h3>
+            <h3 class="pseudo-code"><b>&lt;p</b>"Hello"<b>&lt;p&gt;</b></h3>
+          </div>
+          <div class="fragment" contenteditable>
+            <h3 class="pseudo-code"><b>p.code-1 {</b> color<b>:</b> blue<b>; }</b></h3>
+            <h3 class="pseudo-code"><b>p#code1 {</b> colour<b>:</b> blue<b>: }</b></h3>
+          </div>
+          <aside class="notes">
+            There are 4 differences in each example
+          </aside>
+        </section>
+
+        <section id="coder">
           <h2>Who is</h2>
           <h1>a coder?</h1>
           <aside class="notes">
-            <p>Misconception: coding is for people who really know what they're doing, who have code just flowing out of their brains..</p>
-            <p>A coder is someone like me (I'm no computer scientist), <strong>someone like you</strong>.</p>
-            <p>Anyone who uses code to <strong>solve problems</strong>, <em>creatively</em> and <em>collaboratively</em>.</p>
+            <p>Code is executed by <strong>machines</strong>, and written by <strong>people</strong>.</p>
+            <p>Misconception: coding is for people who really know what they're doing, who have code just flowing out of their brains..
+            <p>Anyone who uses code to <strong>solve problems or make things</strong>, <em>creatively</em> and <em>collaboratively</em>.</p>
+            <p>A coder is someone like me, someone like you. <strong>I'm no computer scientist</strong>.</p>
           </aside>
         </section>
 
@@ -78,17 +100,9 @@
               <li>Any ideas?</li>
             </ul>
             <p>Like <strong>learning a new language</strong>, <strong>translating</strong> your ideas into code.</p>
+            <p>A bit of <strong>grammar</strong> and <strong>vocabulary</strong>, and mostly you can learn by <strong>copying</strong></p>
           </aside>
         </section>
-
-        <!-- <section>
-          <h1>Sketching</h1>
-          <h2>with code</h2>
-          <h3></h3>
-          <aside class="notes">
-            
-          </aside>
-        </section> -->
 
         <section data-transition="linear" data-transition-speed="fast">
           <h1>Copy</h1>
@@ -99,9 +113,9 @@
             <p>If you want to become a pattern cutter, you <strong>deconstruct</strong> and copy good garments.</p>
             <p>If you want to make things on the Web, you <strong>inspect</strong> and copy good websites.</p>
             <ul>
-              <li>What's your favourite website?</li>
+              <li>Here's Facebook, your favourite website.</li>
               <li>Let's <strong>inspect</strong> it.</li>
-              <li>Let's <strong>hack</strong> it.</li>
+              <li>Let's <strong>hack</strong> it (change <code>.loggedout_menubar_container</code>).</li>
             </ul>
             <p>This is something we're going to dig in later on.</p>
           </aside>
@@ -122,12 +136,13 @@
         </section>
 
         <section data-transition="linear" data-transition-speed="fast">
-          <h2>Today </h2>
-          <h1 class="fragment">Web comic</h1>
+          <h2>Today you make a</h2>
+          <!-- <h3>you make a</h3> -->
+          <h1>Web comic</h1>
           <aside class="notes">
             <p>You will make a <strong>Web comic</strong>.</p>
-            <p>I will show you the <strong>building blocks</strong> of a Web page, and the bb of a comic.</p>
-            <p>Then you will explore the potential of the Web, and experiment with the visual language of a comic.</p>
+            <p>I will show you a few <strong>coding tricks</strong> and we'll lay the <strong>foundations</strong> of your Web comic together.</p>
+            <p>Then you will explore the <strong>potential of the Web</strong>, and experiment with the <strong>visual language</strong> of a comic.</p>
             <p>It will be up to you to <em>fill in the gaps</em>, and bring your Web comic to life.</p>
           </aside>
         </section>
@@ -142,35 +157,38 @@
             </ul>
             <p>(conservative) It's a comic, on the Web. It's <strong>more</strong> than that.</p>
             <p>The Web is not the Internet. If the Internet is a global <em>brain</em> (infrastructure), the Web is all the <em>memories</em> and <em>thoughts</em> that run on top o it.</p>
-            <p>The WWW started as a bunch of images and text linked together.
-            A special kind of text, aka <strong>hypertext</strong> because it's linked together by <strong>hyperlinks</strong>.</p>
+            <p>The WWW started as a bunch of images and text linked together, over <strong>2 computers in Switzerland</strong>. A special kind of text, aka <strong>hypertext</strong> because it's linked together by <strong>hyperlinks</strong>.</p>
           </aside>
         </section>
 
         <section id="www" data-transition="linear" data-transition-speed="fast">
           <h3>How does it</h3>
-          <h2>WWWork?</h2>
+          <h2><b>WWWork</b>?</h2>
           <img class="fragment left browser" src="http://i.imgur.com/Y0rLeDN.png">
-          <span class="fragment right arrow">→</span>
-          <img class="fragment right server" src="http://i.imgur.com/QNpqse7.png">
-          <img class="fragment centre html" src="http://i.imgur.com/gAFh0g6.png">
-          <span class="fragment left arrow">←</span>
+          <div class="fragment">
+            <span class="right arrow">→</span>
+            <img class="right server" src="http://i.imgur.com/QNpqse7.png">
+          </div>
+          <div class="fragment">
+            <img class="centre html" src="http://i.imgur.com/gAFh0g6.png">
+            <span class="left arrow">←</span>
+          </div>  
 
           <aside class="notes">
-            <p>The <strong>browser</strong>** is your waiter, takes an HTTP request from you and sends it to the Internet, to find a resource/page/site that responds to your request.</p>
+            <p>The <strong>browser</strong> is your waiter, takes an HTTP request from you and sends it to the Internet, to find a resource/page/site that responds to your request.</p>
             <p>If you haven't mistyped your request, this will reach a server on the other end.</p>
             <p>A <strong>server</strong> is a computer that is always on. Receives requests and cooks responses, which are sent back to the browser as <strong>HTML code</strong>.</p>
           </aside>
         </section>
 
-        <section id="html" class="code" data-transition="none">
-          <h2 class="fragment">WWWTF?</h2>
+        <section id="html" class="has-code" data-transition="none">
+          <h2 class="fragment">WW<b>WTF</b>?</h2>
           <img src="http://i.imgur.com/gAFh0g6.png">
-          <pre class="fragment"><code contenteditable>&lt;p&gt;I am bold&lt;/p&gt;</code></pre>
-          <pre class="fragment"><code contenteditable>&lt;p&gt;I am &lt;b&gt;bold&lt;/b&gt;&lt;/p&gt;</code></pre>
+          <pre class="fragment"><code contenteditable>&lt;p&gt;Follow me on Twitter&lt;/p&gt;</code></pre>
+          <pre class="fragment"><code contenteditable>&lt;p&gt;&lt;a href="//twitter.com/baddeo"&gt;Follow me on Twitter&lt;/a&gt;&lt;/p&gt;</code></pre>
           <aside class="notes">
             <p>What does HTML stand for? <strong>Markup</strong> is the key word here.</p>
-            <p>As humans we understand information visually (eg big/small text in a magazine), but computers/browsers don't. So we need to <strong>mark our content up</strong>, ie tell the browser "This is an image, this a paragraph, this is a title, this is a section etc."</p>
+            <p>As humans we <strong>understand information visually</strong> (eg big/small text in a magazine), but computers/browsers don't. So we need to <strong>mark our content up</strong>, ie tell the browser "This is an image, this a paragraph, this is a title, this is a section etc."</p>
             <p>Anything between angle brackets is instructions for the browser. <i>P</i> is a shortcut for <em>paragraph</em>.</p>
             <ul>
               <li>What other tags do you know?</li>
@@ -181,12 +199,11 @@
         <section>
           <h2>What is a </h2>
           <h1><span class="quiet">Web</span> comic?</h1>
-          <h2 class="fragment">What is your story?</h2>
+          <!-- <h2 class="fragment">What is <b>your story</b>?</h2> -->
           <aside class="notes">
-            <p>It's a <strong>sequence</strong> of images and text that are <em>linked</em> together (bit like the Web).</p>
+            <p>It's a <strong>sequence</strong> of images and text that are <b>linked</b> together (bit like the Web).</p>
             <p>Mostly to tell a <strong>story</strong> (starts somewhere sometimes, things happen, happy or sad ending).</p>
             <h3>What is your story?</h3>
-            <p>(link back to the Passport / Self brief)</p>
             <ul>
               <li>Who are you?</li>
               <li>What interests you?</li>
@@ -198,27 +215,32 @@
         <section data-transition-speed="fast">
           <h3>What is</h3>
           <h1>your</h1>
-          <h2>Web comic?</h2>
+          <h2><b>Web comic</b>?</h2>
 
           <aside class="notes">
-            <p>What <strong>can</strong> a Wc be?</p>
-            <p>On the Web, you can embed video, audio, animation, interactive objects (e.g. maps, drawing canvas), social media feeds and buttons...</p>
-            <p>A comic is <em>not just</em> about telling stories: communicate ideas, express opinions, raise awareness, present projects..</p>
-            <p>Your Web comic could become a storyboard, a lookbook, and interactive poster, an online magazine, a blog post. It’s really up to you.</p>
+            <p>On the <strong>Web</strong>, you can have <strong>more</strong> than images and text: embed video, audio &amp; animation, you can get people to <strong>draw</strong> instead of just <strong>read</strong> (e.g. maps, drawing canvas), social media feeds and buttons...</p>
+            <p>A <strong>comic is <em>not just</em> about telling stories</strong>: communicate <strong>ideas</strong>, express <strong>opinions</strong>, raise <strong>awareness</strong>, present <strong>projects</strong>..</p>
+            <p>Your Web comic could become a <strong>storyboard</strong>, a <strong>lookbook</strong>, and <strong>interactive poster</strong>, an online <strong>magazine</strong>, a blog <strong>post</strong>. It’s really up to you.</p>
           </aside>
         </section>
         
-        <section>
+        <section id="web-literate">
           <h2>Become </h2>
           <h1>Web-literate</h1>
           <aside class="notes">
-            <p>By making a Web comic today, you will get to know the fabrics of the Web (HTML, CSS and JavaScript), and become confident to use code to <strong>express your ideas creatively</strong>.</p>
-            <p>Today is about becoming Web-literate. I don't expect you to become a skilled coder. You may want to become a fashion designer, or a ...</p>
-            <p>However as a <em>creative professional in the 21st century</em>, you can’t be Web-illiterate. Just like you have to be able to read and write, and do some maths. You need to understand a bit of code.</p>
+            <p>By making a Web comic today, you will get to know the <strong>fabrics</strong> of the Web (HTML, CSS and JavaScript), and become <strong>confident</strong> to use code to <strong>express your ideas creatively</strong>.</p>
+            <p>I don't expect you to become a skilled coder. You may want to become a fashion designer, or a ...</p>
+            <p>However as a <strong>creative professional in the 21st century you can’t be Web-illiterate</strong>. Just like you have to be able to read and write, and do some maths. You need to understand a bit of code.</p>
             <p>Being Web-literate will enable you to use the Web as an open platform, a place where you can be a <strong>maker</strong>, instead of a <strong>consumer</strong>.</p>
-            <p>Start <strong>creating and curating your own Web presence</strong>. Establish your voice online.</p>
           </aside>
         </section>
+
+        <section id="web-maker">
+          <h2>Go online</h2>
+          <h1>find Webmaker</h1>
+          <h2>sign in</h2>
+        </section>
+
         
         <!-- <section>
           <h1></h1>
@@ -264,7 +286,7 @@
     })*/
     </script>
     <!-- controldeck.js -->
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/controldeck-slides.js"></script>
+    <!-- <script src="/socket.io/socket.io.js"></script>
+    <script src="/controldeck-slides.js"></script> -->
   </body>
 </html>
