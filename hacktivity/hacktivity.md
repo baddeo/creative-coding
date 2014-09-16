@@ -12,7 +12,7 @@
 
 1. Search for Webmaker
 * Go to Webmaker and sign in (with Persona)
-* Search for [Web comic template](https://webmaker.org/en-US/search/?type=all&q=web+comic+template), hit **Remix*** 
+* Search for [Web comic template](https://webmaker.org/en-US/search/?type=all&q=web+comic+template), hit **Remix** 
 * Explain `<html>`, `<head>` and `<body>` as the **skeleton** of every and any webpage. **Like a person**, it has a head and a body.
 
  	`<body>` is the visible part of an HTML page. 
@@ -28,8 +28,6 @@
 	When you hover over the source code with your mouse, the corresponding HTML element on the page will light up. 
 	
 	When you click on an HTML tag in the source code (on the **left**), you'll see all its styles (on the **right**).
-
-- Change the `p` red. Explain this is a **temporary change**.
 
 - **Show the finished comic**. 
 
@@ -101,6 +99,7 @@
 	Also **some companies don't allow** you to embed their websites. For instance if you want to embed something from Twitter, you can't simply paste the URL into it but have to follow their instructions.
 	
 	
+* Take a **break**!	
 	
 	
 * Now we've got **all our content marked-up**. 
@@ -150,7 +149,7 @@
       
 * Now we want to **position** our speech bubbles inside the panels.
 
-	We want to say something like "browser, **offset** this speech bubble 50px from the top and 100px from the left".
+	We want to say something like "browser, **offset** this speech bubble 50px from the top".
 	
 	`top: 50px;`
 	
@@ -160,14 +159,10 @@
 	
 	`position: absolute;`
 	
-	The bubbles fly off, so we need to set them relative to their sections. hmmm
+	The bubbles fly off, so we need to set them *relative* to their parent sections. 
 	
 	`position:relative;`
 	
-	
-	
-	
-
 
 	`position` defines how an element can be moved with **offsets** (`top`, `right`, `bottom` and `left`).
 	
@@ -176,11 +171,57 @@
 	`position:absolute` offsets an element in relation to its **first, non-static ancestor**     
 
 	
-	Introduce classes and ids
+* Introduce `ids` to position each speech bubble individually.
+
+* **Margins** for `section`
+
+* **Margins** and *max-width* for `body`
+
+* **Fonts**!
+
+* **Ask students to embed a Youtube video** in their comic.
+
+
+## Optionals
+
+* **Classes**?
+
+* **Ask students to embed a Google map** in their comic.
+* **Ask students to embed a Twitter widget** in their comic.
+
+* **Floats**
+
+* **Overflows**
+
+* **Border-radius**
+
+
+* Give your comic a heading `<h1>` and a subheading `<h2>` 
+
+	Maybe introduce `<b>` and `<i>`?
 	
-	Introduce position relative and absolute	
-	
+* Make the arrow
+
+
+        .bubble:after
+    	{
+    		content: " ";
+			position: absolute;
 		
+			border-width: 30px;
+			border-style: solid;
+    	}
+    
+    	#panel1 .bubble:after 
+		{
+			top: 100%;
+			left: 30px;
+			
+			border-top-color: white;
+			border-left-color: red;
+			border-bottom-color: green; 
+			border-right-color: blue; 
+		} 		
 
 	
 	 
@@ -327,39 +368,7 @@
 
 	
 
-## Optionals
 
-
-* **Ask students to embed a Youtube video** in their comic.
-* **Ask students to embed a Google map** in their comic.
-* **Ask students to embed a Twitter widget** in their comic.
-
-* Give your comic a heading `<h1>` and a subheading `<h2>` 
-
-	Maybe introduce `<b>` and `<i>`?
-	
-* Make the arrow
-
-
-        .bubble:after
-    	{
-    		content: " ";
-			position: absolute;
-		
-			border-width: 30px;
-			border-style: solid;
-    	}
-    
-    	#panel1 .bubble:after 
-		{
-			top: 100%;
-			left: 30px;
-			
-			border-top-color: white;
-			border-left-color: red;
-			border-bottom-color: green; 
-			border-right-color: blue; 
-		} 
 	
 
 
@@ -406,6 +415,16 @@
 * No need to change the `<title>` at the beginning, it seems to confuse people (as it's not immediately visible). They'll change it later by themsleves, also they don't really know what they may want to title their comic so it's a big ask at the beginning.
 
 * When introducing `position:absolute` some people's images will fly off, because they're not inside `<section>`
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -465,6 +484,13 @@ height: 300px;
 
 
 
+
+
+
+
+
+
+
 ### About Thimble
 
 * When the preview reloads it shouldn't scroll to the top of the page but *remember* where we've scrolled
@@ -474,3 +500,4 @@ height: 300px;
 * If you misspell `absolute` it doesn't turn red
 * If you have 2 }} it doesn't turn red
 * Keep getting an error when trying to save [this Maker Party Report](https://baddeo.makes.org/thimble/maker-party-report).
+
