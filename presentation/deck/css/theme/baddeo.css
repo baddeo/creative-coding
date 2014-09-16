@@ -320,3 +320,6 @@ a:hover {
 .pseudo-code b {
   color: #0095d7;
 }
+.pseudo-code .value {
+  color: #f5367c;
+}
