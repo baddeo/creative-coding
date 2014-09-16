@@ -1,15 +1,28 @@
 /* #SPOT */
 
-	#spot > *
+	#spot h2, #spot .differences-group
 	{
 		position: absolute;
 		width: 100%;
 		top: -150px;
 	}
 
-	#spot .fragment
+	#spot .differences-group
 	{
 		top: 0;
+	}
+
+/* #GOOD */
+
+	#good h1
+	{
+		position: relative;
+	}
+
+	#good h1 .fade-out
+	{
+		position: absolute;
+		left: 14%;
 	}
 
 /* #WWW */

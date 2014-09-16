@@ -6,9 +6,24 @@
 
 It's **instructions** to a computer: extremely powerful, fundamentally thick. 
 
-Imagine a computer is your most pedantic friend: **break down** every step, be **precise**, it will take you **literally**.
+Imagine a computer is your most pedantic **friend**: 
 
-* Spot the difference
+* **break down** every step
+* be **precise**
+* it will take you **literally**
+
+### Spot the difference
+
+
+## What are computers good at?
+
+**Computing** (calculating very fast, comparing quantities), **repeating** (boring) tasks endlessly, **executing** instructions, **storing** data. 
+
+### What are you good at?	
+
+People are good at **spotting patterns** (connecting the dots), thinking **outside the box**, **inventing** new tools and new ways to use old tools.
+
+**Code is a tool**, is how we can get computers to do the **heavy lifting for us**, so that we can focus on the creative aspects of computing.
 
 
 ## Who is a coder?	
@@ -34,28 +49,14 @@ A bit of **grammar** and **vocabulary**, and mostly you can learn by **copying**
 
 ### Copy
 
-If you want to learn typography, you start copying and **editing** fonts. 
+To learn typography, you copy and **edit** fonts. 
 
-If you want to become a pattern cutter, you **deconstruct** and copy good garments.
+To become a pattern cutter, you **deconstruct** and copy good garments.
 
-If you want to make things on the Web, you **inspect** and copy good websites.
+To make things on the Web, you **inspect** and copy good websites.
 
-* Here's Facebook, your favourite website. 
-* Let's **inspect** it. 
-* Let's **hack** it (change `.loggedout_menubar_container`).
+**Today** you're going to **copy me** before lunch, **hack it** after lunch.
 
-This is something we're going to dig in later on.
-
-
-## Can you learn to code in a day?
-
-* What do you think?
-
-Today is not about becoming proficient coders (although this could be your starting point), but rather to become **confident in tinkering with code**. 
-
-To see code as a **toolbox**, and not something scary or too complex for you.
-
-To see the **Web** as a place where you can **make** things and not just **consume** them. 
 
 ## Today
 
@@ -71,16 +72,16 @@ It will be up to you to *fill in the gaps*, and bring your Web comic to life.
 
 * Any ideas?
 
-(conservative) It's a comic, on the Web.
-
-It's **more** than that. 
+It's a comic, on the Web... right? It's **more** than a standard printed comic, put on the Web. 
 
 ## What is a Web (comic)?
 
-The Web is not the Internet. If the Internet is a global *brain* (infrastructure), the Web is all the *memories* and *thoughts* that run on top o it.
+The Web is not the Internet. If the Internet is a global **brain** (infrastructure), the Web is all the **memories and thoughts** that run on top of it.
 
-The WWW started as a bunch of images and text linked together, over **2 computers in Switzerland**. 
-A special kind of text, aka **hypertext** because it's linked together by **hyperlinks**.
+The WWW started as a way of **linking** scientific documents together, over **2 computers in Switzerland**. 
+
+TBL → **hypertext + Internet = WWW**, he specified a set of **rules** (HTTP) for computers to exchange documents over the Internet, and a standard **format** for these documents (HTML). 
+
 
 ## How does the WWW work?
 
@@ -139,11 +140,13 @@ Your Web comic could become a **storyboard**, a **lookbook**, and **interactive 
 
 By making a Web comic today, you will get to know the **fabrics** of the Web (HTML, CSS and JavaScript), and become **confident** to use code to **express your ideas creatively**.
 
-I don't expect you to become a skilled coder. You may want to become a fashion designer, or a ...
+Today is not about becoming proficient coders (although this could be your starting point), but rather to become **confident in tinkering with code**. To see code as a **toolbox**, and not something **scary** or too **complex**.
 
-However as a **creative professional in the 21st century you can’t be Web-illiterate**. Just like you have to be able to read and write, and do some maths. You need to understand a bit of code. 
+You may want to become a fashion designer, or a (ask)? However as a **creative professional in the 21st century you can’t be Web-illiterate**. Just like you have to be able to read and write, and do some maths. You need to understand a bit of code. 
 
 Being Web-literate will enable you to use the Web as an open platform, a place where you can be a **maker**, instead of a **consumer**. 
+
+
 
 
 ## 
@@ -163,6 +166,17 @@ Being Web-literate will enable you to use the Web as an open platform, a place w
 
 	*Go online, find Webmaker and sign in.*
 	
-- [x] Instead of asking people for *a / their favourite website*, just use Facebook and change its header `background` to demostrate that you can inspect&tinker with any website.	
+- [x] Instead of asking people for *a / their favourite website*, just use Facebook and change its header `background` to demostrate that you can inspect&tinker with any website.
+
+##### 16.09
+
+- [x] What are computers good at, what are you good at?
+- [x] Spot the difference with `src-scr`
+- [x] Remove Facebook hack (can show that at the beginning of the *Hacktivity*)
+- [x] Copy (me) before lunch, hack it after lunch
+- [x] Re-jig *What is the Web?* slide
+- [x] Remove *Can you learn to code in a day?* slide
+- [] *Anatomy* of a comic	
+
  
 
