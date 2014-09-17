@@ -41,13 +41,11 @@ A coder is someone like me, someone like you. **I'm no computer scientist**.
 
 ## How do you learn to code?
 
-* Any ideas?
-
 Like **learning a new language**, **translating** your ideas into code.
 
-A bit of **grammar** and **vocabulary**, and mostly you can learn by **copying**.
-
 **Today** you're going to learn **2 new languages**.
+
+A bit of **grammar** and **vocabulary**, and mostly you can learn by **copying**.
 
 ### Copy
 
@@ -116,9 +114,6 @@ Anything between angle brackets is instructions for the browser.
 
 Use the **sandwich analogy** to explain html tags.
 
-P is a shortcut for *paragraph*.    
-    
-* What other tags do you know?
 
 ## What is a (Web) comic?
 
