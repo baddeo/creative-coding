@@ -72,4 +72,10 @@
 * People don't seem to get the CSS selectors, maybe we could do a bit of a **translation quiz** 
 * Ask people to refrain from styling the texts with `<font>`, tell them you'll show them how to tackle that after lunch.
 
+### 18.09
  
+* Point out that all the (Webmaker, IMGUR, Google Fonts) (Webmaker, IMGUR, Google Fonts) we're using are **free and easy to use** 
+* Introduce the HTML5 (dog) glossary? What about StackOverflow?
+* **Smile**!
+* *If I can do it, you can do it too*
+* Embed *watercolor map* from Stamen, like in [this codepen](http://codepen.io/fwebdesign/pen/DyAto)
