@@ -1,8 +1,15 @@
 # Presentation
 
+For many of you, this will be a **memorable day**! You'll write your **first line of code**, and by mid-afternoon you'll have made **your very own web-page**, from **scratch**!
+
+Exciting, **fun**!
+
+*On a practical note*, our **schedule** is.. we will have **breaks** at..
+
+
 ## What is code?
 
-**Where** is code? Is there code in this (phone/computer/presentation..)
+**Why** do we need code? What is code used for? Who or what runs code? **Where** is code?
 
 It's **instructions** to a computer: extremely powerful, fundamentally thick. 
 
@@ -14,16 +21,17 @@ Imagine a computer is your most pedantic **friend**:
 
 ### Spot the difference
 
+To realise the level of precision and **pedantry** your digital friend requires
 
 ## What are computers good at?
 
-**Computing** (calculating very fast, comparing quantities), **repeating** (boring) tasks endlessly, **executing** instructions, **storing** data. 
+COMPUTERS → **Computing** (calculating very fast, comparing quantities), **repeating** (boring) tasks endlessly, **executing** instructions, **storing** data. 
 
 ### What are you good at?	
 
-People are good at **spotting patterns** (connecting the dots), thinking **outside the box**, **inventing** new tools and new ways to use old tools.
+PEOPLE → **Spotting patterns** (connecting the dots), thinking **outside the box**, **inventing** new tools and new ways to use old **tools**.
 
-**Code is a tool**, is how we can get computers to do the **heavy lifting for us**, so that we can focus on the creative aspects of computing.
+**Code is a tool**, is how we can get computers to do the **heavy lifting for us**, so that we can focus on being **creative**.
 
 
 ## Who is a coder?	
@@ -87,7 +95,7 @@ TBL → **hypertext + Internet = WWW**, he specified a set of **rules** (HTTP) f
 
 (Image of *browser* and *server*, with *HTTP* and *HTML* in between)
 
-The **browser** is your waiter, takes an HTTP request from you and sends it to the Internet, to find a resource/page/site that responds to your request.
+The **browser** takes an HTTP request from you and sends it to the Internet, to find a resource/page/site that responds to your request.
 
 If you haven't mistyped your request, this will reach a server on the other end.
 
@@ -100,7 +108,7 @@ What does HTML stand for?
 
 * Any ideas?
 
-**Markup** is the key word here.
+**Markup** is the key word here (it's a concept borrowed from **typesetting in print**).
 
 As humans we **understand information visually** (eg big/small text in a magazine), but computers/browsers don't. So we need to **mark our content up**, ie tell the browser "This is an image, this a paragraph, this is a title, this is a section etc."
 
@@ -110,9 +118,9 @@ As humans we **understand information visually** (eg big/small text in a magazin
     
     <p><a href="//twitter.com/baddeo">Follow me on Twitter</a></p>
     
-Anything between angle brackets is instructions for the browser.
+Anything between **angle brackets** is instructions for the browser.
 
-Use the **sandwich analogy** to explain html tags.
+Use the **sandwich analogy** to explain HTML tags.
 
 
 ## What is a (Web) comic?

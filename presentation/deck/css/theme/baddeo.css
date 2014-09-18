@@ -184,7 +184,7 @@ body {
 /* OVERRIDES */
 body {
   background-color: transparent;
-  background: url("http://baddeo.com/stylesheets/images/body_background.png");
+  background: url("../../img/like-pattern.png");
 }
 
 .reveal h1 {

@@ -18,7 +18,7 @@
 
 - <input type="checkbox"> Find out how to make a **hyperlink**
 
-- <input type="checkbox"> **Embed** a page to your comic
+- <input type="checkbox"> **Embed** a webpage into your comic
 
 
 
@@ -55,7 +55,7 @@
 
 - <input type="checkbox"> `position: absolute` and `position:relative`
 
-- <input type="checkbox"> **Fonts**!
+- <input type="checkbox"> Style **fonts**!
 
 <input type="checkbox"> **1 hour break**!
 
@@ -65,11 +65,11 @@
 
 - <input type="checkbox"> `margin: auto`
 
-- <input type="checkbox"> [OPTIONAL] `border-radius`
+- <input type="checkbox"> *OPTIONAL* `border-radius`
 
-- <input type="checkbox"> [OPTIONAL] `float`
+- <input type="checkbox"> *OPTIONAL* `float`
 
-- <input type="checkbox"> [OPTIONAL] `overflow: hidden`
+- <input type="checkbox"> *OPTIONAL* `overflow: hidden`
 
-- <input type="checkbox"> [OPTIONAL] Make the speech bubble's **arrow**
+- <input type="checkbox"> *OPTIONAL* Make the speech bubble's **arrow**
 
