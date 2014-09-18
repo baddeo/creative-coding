@@ -17,6 +17,10 @@
     <script>
     document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
     </script>
+
+
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
@@ -39,6 +43,12 @@
 
         <section id="cc">
           <h1>Creative <span>&lt;Coding&gt;</span></h1>
+
+          <aside class="notes">
+            <p>For many of you, this will be a <strong>memorable day</strong>! You'll write your <strong>first line of code</strong>, and by mid-afternoon you'll have made <strong>your very own web-page</strong>, from <strong>scratch</strong>!</p>
+            <p>Exciting, <strong>fun</strong>!</p>
+            <p><em>On a practical note</em>, our <strong>schedule</strong> is.. we will have <strong>breaks</strong> at..</p>
+          </aside>
         </section>
 
         <section id="me" data-transition="linear" data-transition-speed="fast">
@@ -54,7 +64,7 @@
           <h2>What is</h2>
           <h1>code?</h1>
           <aside class="notes">
-            <p><strong>Where</strong> is code? Is there code in this (phone/computer/presentation..) </p>
+            <p><strong>Why</strong> do we need code? What is code used for? Who or what runs code? <strong>Where</strong> is code?</p>
             <p>It's <strong>instructions</strong> to a computer: extremely powerful, fundamentally thick.</p>
           </aside>
         </section>
@@ -91,6 +101,7 @@
             </div>
           </div>
           <aside class="notes">
+            <p>To realise the level of precision and **pedantry** your digital friend requires</p>
             Differences:
             <ol>
               <li>2</li>
@@ -109,9 +120,9 @@
           <h2><b>good at?</b></h2>
           
           <aside class="notes">
-            <p><strong>Computing</strong> (calculating very fast, comparing quantities), <strong>repeating</strong> (boring) tasks endlessly, <strong>executing</strong> instructions, <strong>storing</strong> data.</p>
-            <p>People are good at <strong>spotting patterns</strong> (connecting the dots), thinking <strong>outside the box</strong>, <strong>inventing</strong> new tools and new ways to use old tools.</p>
-            <p><strong>Code is a tool</strong>, is how we can get computers to do the <strong>heavy lifting for us</strong>, so that we can focus on the creative aspects of computing.</p>
+            <p>COMPUTERS → <strong>Computing</strong> (calculating very fast, comparing quantities), <strong>repeating</strong> (boring) tasks endlessly, <strong>executing</strong> instructions, <strong>storing</strong> data.</p>
+            <p>PEOPLE → <strong>Spotting patterns</strong> (connecting the dots), thinking <strong>outside the box</strong>, <strong>inventing</strong> new tools and new ways to use old <strong>tools</strong>.</p>
+            <p><strong>Code is a tool</strong>, is how we can get computers to do the <strong>heavy lifting for us</strong>, so that we can focus on being <b>creative</b>.</p>
           </aside>
         </section>
 
@@ -130,9 +141,6 @@
           <h2>How do you</h2>
           <h1>learn to code?</h1>
           <aside class="notes">
-            <ul>
-              <li>Any ideas?</li>
-            </ul>
             <p>Like <strong>learning a new language</strong>, <strong>translating</strong> your ideas into code.</p>
             <p>A bit of <strong>grammar</strong> and <strong>vocabulary</strong>, and mostly you can learn by <strong>copying</strong></p>
             <p><strong>Today</strong> you're going to learn <strong>2 new languages</strong>.</p>
@@ -203,7 +211,7 @@
           </div>  
 
           <aside class="notes">
-            <p>The <strong>browser</strong> is your waiter, takes an HTTP request from you and sends it to the Internet, to find a resource/page/site that responds to your request.</p>
+            <p>The <strong>browser</strong> takes an HTTP request from you and sends it to the Internet, to find a resource/page/site that responds to your request.</p>
             <p>If you haven't mistyped your request, this will reach a server on the other end.</p>
             <p>A <strong>server</strong> is a computer that is always on. Receives requests and cooks responses, which are sent back to the browser as <strong>HTML code</strong>.</p>
           </aside>
@@ -215,16 +223,17 @@
           <pre class="fragment"><code contenteditable>&lt;p&gt;Follow me on Twitter&lt;/p&gt;</code></pre>
           <pre class="fragment"><code contenteditable>&lt;p&gt;&lt;a href="//twitter.com/baddeo"&gt;Follow me on Twitter&lt;/a&gt;&lt;/p&gt;</code></pre>
           <aside class="notes">
-            <p>What does HTML stand for? <strong>Markup</strong> is the key word here.</p>
+            <p>What does HTML stand for? <strong>Markup</strong> is the key word here (it's a concept borrowed from <strong>typesetting in print</strong>).</p>
             <p>As humans we <strong>understand information visually</strong> (eg big/small text in a magazine), but computers/browsers don't. So we need to <strong>mark our content up</strong>, ie tell the browser "This is an image, this a paragraph, this is a title, this is a section etc."</p>
-            <p>Use the <strong>sandwich analogy</strong> to explain html tags.</p>
-            <p>Anything between angle brackets is instructions for the browser. <i>P</i> is a shortcut for <em>paragraph</em>.</p>
+            <p>Anything between <strong>angle brackets</strong> is instructions for the browser.</p>
+            <p>Use the <strong>sandwich analogy</strong> to explain HTML tags.</p>
           </aside>
         </section>
 
         <section>
           <h2>What is a </h2>
           <h1><span class="quiet">Web</span> comic?</h1>
+          <!-- <i class="fa fa-comment-o"></i> -->
           <!-- <h2 class="fragment">What is <b>your story</b>?</h2> -->
           <!-- <img src="img/anatomy.png"> -->
           <aside class="notes">
@@ -249,6 +258,12 @@
             <p>A <strong>comic is <em>not just</em> about telling stories</strong>: communicate <strong>ideas</strong>, express <strong>opinions</strong>, raise <strong>awareness</strong>, present <strong>projects</strong>..</p>
             <p>Your Web comic could become a <strong>storyboard</strong>, a <strong>lookbook</strong>, and <strong>interactive poster</strong>, an online <strong>magazine</strong>, a blog <strong>post</strong>. It’s really up to you.</p>
           </aside>
+        </section>
+
+        <section id="topic" data-transition="linear" data-transition-speed="fast">
+          <h3>Stuck for <b>ideas</b>? Ask Google</h3>
+          <iframe class="left" scrolling="no" width="400" height="380" src="http://www.google.co.uk/trends/topcharts/widget?cid=zg1721&geo=GB&date=2013&vm=trendingchart&h=420"></iframe>
+          <iframe class="right" scrolling="no" width="400" height="380" src="http://www.google.co.uk/trends/topcharts/widget?cid=zg1727&geo=GB&date=2013&vm=trendingchart&h=420"></iframe>
         </section>
         
         <section id="web-literate">

@@ -100,5 +100,25 @@
 		width: 130px;
 	}
 
-	
+/* TOPIC */
+
+	#topic iframe
+	{
+		border: 1px solid whitesmoke;
+		background: white;
+		transform: scale(1.3);
+		position: relative;
+		top: 60px;
+		/*height: 366px;*/
+	}
+
+	#topic iframe.left
+	{
+		left: -70px;
+	}
+
+	#topic iframe.right
+	{
+		right: -70px;
+	}
 
