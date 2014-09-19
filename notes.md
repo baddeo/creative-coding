@@ -77,7 +77,20 @@
 ### 18.09
  
 * Point out that all the (Webmaker, IMGUR, Google Fonts) (Webmaker, IMGUR, Google Fonts) we're using are **free and easy to use** 
-* Introduce the HTML5 (dog) glossary? What about StackOverflow?
+* [ ] Introduce the HTML5 (dog) glossary? What about StackOverflow?
 * **Smile**!
 * *If I can do it, you can do it too*
 * Embed *watercolor map* from Stamen, like in [this codepen](http://codepen.io/fwebdesign/pen/DyAto)
+
+
+### 19.09
+
+* Presentation went really well, let's see if people choose any of the Google Trends..
+* I think getting people to plan their comic is a good idea in principle, and it may be worth spending 5 minutes doing that before we dig into code. Perhaps as a rough sketch? Also I should show examples of what a Web comic can be.. simple pages that can be done with a bit of HTML and CSS
+* To explain CSS, use **dress code** as a metaphor
+* `position:relative` and `position:absolute` is still bloody tricky, let's re-introduce the boilerplate style
+* [ ] Re-order the *spot the difference* examples so that we have all HTML ones first, then CSS
+* [ ] Can we use `normalize.css`, would it help? Or maybe create a sort of normalize boilerplate and link to it
+* [ ] Today we make a comic, but think of what you could do **after**? Eg create a blog for yourself or a friend, make a webpage for your music band, etc. and mention [Dash](https://dash.generalassemb.ly/)
+* [ ] Make the `max-width: 600px` and `margin:auto` earlier, maybe right after the `background`
+* Need to get people **used** to `id` and `class`, do it at least 3 times, before we introduce new properties
