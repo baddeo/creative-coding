@@ -128,12 +128,6 @@ Use the **sandwich analogy** to explain HTML tags.
 It's a **sequence** of images and text that are **linked** together (bit like the Web). 
 
 Mostly to tell a **story** (starts somewhere sometimes, things happen, happy or sad ending).
- 
-### What is your story? 
-
-* Who are you? 
-* What interests you? 
-* What do you stand for?
 
 ## What is a/your Web comic?
 
@@ -142,6 +136,18 @@ On the **Web**, you can have **more** than images and text: embed video, audio &
 A **comic is *not just* about telling stories**: communicate **ideas**, express **opinions**, raise **awareness**, present **projects**..
 
 Your Web comic could become a **storyboard**, a **lookbook**, and **interactive poster**, an online **magazine**, a blog **post**. It’s really up to you.
+
+## Brief
+
+### What if...
+
+### What is...
+
+### How to...
+
+Pick one of the **starters**, complete the sentence, then make a Web comic about it.
+
+Your Web comic has to include at least one **hyperlink** and one **embed**.
 
 ## Become Web-literate
 
@@ -183,7 +189,6 @@ Being Web-literate will enable you to use the Web as an open platform, a place w
 - [x] Copy (me) before lunch, hack it after lunch
 - [x] Re-jig *What is the Web?* slide
 - [x] Remove *Can you learn to code in a day?* slide
-- [] *Anatomy* of a comic	
 
  
 
