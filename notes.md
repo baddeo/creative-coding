@@ -89,8 +89,23 @@
 * I think getting people to plan their comic is a good idea in principle, and it may be worth spending 5 minutes doing that before we dig into code. Perhaps as a rough sketch? Also I should show examples of what a Web comic can be.. simple pages that can be done with a bit of HTML and CSS
 * To explain CSS, use **dress code** as a metaphor
 * `position:relative` and `position:absolute` is still bloody tricky, let's re-introduce the boilerplate style
-* [ ] Re-order the *spot the difference* examples so that we have all HTML ones first, then CSS
+* [x] Re-order the *spot the difference* examples so that we have all HTML ones first, then CSS
 * [ ] Can we use `normalize.css`, would it help? Or maybe create a sort of normalize boilerplate and link to it
 * [ ] Today we make a comic, but think of what you could do **after**? Eg create a blog for yourself or a friend, make a webpage for your music band, etc. and mention [Dash](https://dash.generalassemb.ly/)
-* [ ] Make the `max-width: 600px` and `margin:auto` earlier, maybe right after the `background`
-* Need to get people **used** to `id` and `class`, do it at least 3 times, before we introduce new properties
+* [x] Make the `max-width: 600px` and `margin:auto` earlier, maybe right after the `background`
+* [x] Need to get people **used** to `id` and `class`, do it at least 3 times, before we introduce new properties
+
+
+### 24.09
+
+* [x] **What is...**, **What if...**, **Hot to...** instead of sketching the comic
+* [ ] **Boilerplate** on GitHub should be possible, but not as raw, maybe grab the link from the Pages branch?
+* [x] Give all the speech bubbles `id` names before we style them (works well)
+* [x] Introduce `width` and `height` before they hack away
+* [ ] Show how to **embed a video** in the morning
+* [ ] Show how to **embed a map** in the morning (people are uninspired otherwise)
+ 
+
+### 25.09
+
+* Use [IFTT](https://ifttt.com) as an example of **programming logic**?
