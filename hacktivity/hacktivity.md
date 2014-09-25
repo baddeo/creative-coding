@@ -13,21 +13,13 @@
 1. Search for Webmaker
 * Go to Webmaker and sign in (with Persona)
 * Search for [Web comic template](https://webmaker.org/en-US/search/?type=all&q=web+comic+template), hit **Remix** 
-* Explain `<html>`, `<head>` and `<body>` as the **skeleton** of every and any webpage. **Like a person**, it has a head and a body.
+* Create `<html>`, `<head>` and `<body>` as the **skeleton** of every and any webpage. **Like a person**, it has a head and a body.
 
  	`<body>` is the visible part of an HTML page. 
-* Inside the code on the left, find the line that says `I'm about to make a Web Comic`, change it.
+* Make a `<p>`.
 * Save and preview
 	
 	**Pay attention here** If you add `_` at the end of the published URL you get a clean, iframe-less comic.
-	
-- Right-click, `Inspect Element`. 
-
-	This is the **Web Inspector**, where you can see every page's *source code*, *styles* and much more. 
-	
-	When you hover over the source code with your mouse, the corresponding HTML element on the page will light up. 
-	
-	When you click on an HTML tag in the source code (on the **left**), you'll see all its styles (on the **right**).
 
 - **Show the finished comic**. 
 
@@ -65,11 +57,11 @@
 	
 * Add **one paragraph** to the first section, and **two paragraphs** to the second section.
 
-	`<p>Hello, I'm your browser. What do you want?</p>`
+	`<p class="bubble">Hello, I'm your browser. What do you want?</p>`
 	
-	`<p>I'm the server, just got an HTTP request from the browser</p>`
+	`<p class="bubble">I'm the server, just got an HTTP request from the browser</p>`
 	
-	`<p>Now I'm cooking an HTML page</p>`
+	`<p class="bubble">Now I'm cooking an HTML page</p>`
 	
 * Create the **third panel/section**.
 
@@ -78,15 +70,15 @@
 	![](http://i.imgur.com/s4apyQC.png)
 	
 * Add a **speech bubble** to the third panel/section.	
-	`<p>Here's your page as requested. Would you like a cookie with it?</p>`
+	`<p class="bubble">Here's your page as requested. Would you like a cookie with it?</p>`
 	
 * Add a **link** to a page that explains what cookies are. **Ask students to search** and find out. Then **paste** their URL of choice inside their comic.	
 
-	`<p>Here's your page as requested. Would you like <a href="http://www.bbc.co.uk/webwise/guides/about-cookies">a cookie</a> with it?</p>`
+	`<p class="bubble">Here's your page as requested. Would you like <a href="http://www.bbc.co.uk/webwise/guides/about-cookies">a cookie</a> with it?</p>`
 	
 * Create the **fourth panel/section**.
 
-* We want to be a bit *meta* (self-referential) and **embed** the page itself into our comic. A bit like an endless mirror.
+* We want to **embed** another web-page into our comic. 
 
 	We can use `iframe` to do that.
 	
@@ -94,12 +86,24 @@
 	
 	This allows you to embed pretty much anything into a web-page.
 	
-	There's a **limitation** on Thimble (it only seems to work with websites served over `https`)
+	There's a **limitation** on Thimble (it only seems to work with websites served over `https`, unless you change the address to `http`)
 	
 	Also **some companies don't allow** you to embed their websites. For instance if you want to embed something from Twitter, you can't simply paste the URL into it but have to follow their instructions.
 	
 	
+	
+	
+	
+	
+	
 * Take a **break**!	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 * Now we've got **all our content marked-up**. 
@@ -110,13 +114,22 @@
 
 * Let's **save** and head over to the *Inspect tab*.
 
+- Right-click, `Inspect Element`. 
+
+	This is the **Web Inspector**, where you can see every page's *source code*, *styles* and much more. 
+	
+	When you hover over the source code with your mouse, the corresponding HTML element on the page will light up. 
+	
+	When you click on an HTML tag in the source code (on the **left**), you'll see all its styles (on the **right**).
+
+
 	On the **left** of the Inspector we can see the HTML code of our comic.
 	
 	On the **right** there's the style. Well there's not much of it atm.
 	
 * Add a `background: yellow;` to the first panel, then to the second and third panel.. this is a **pain**! 
 
-	We need a way to tell the browser to style all the panels the same way. Some sort of **style guide**..
+	We need a way to tell the browser to style all the panels the same way. Some sort of **style guide** or **dress code**..
 	
 	Meet **CSS**. It stands for ***C**ascading **S**tyle **S**heets* and it's the **language** you can use to tell your browser to change colours, sizes and many other **stylistic** aspects of your HTML documents.
 	
@@ -127,27 +140,48 @@
 	
 	Change `element.style` to `section`
 	
+	    section
+		{
+			background: yellow;
+		}
+	
 	Point out that this is a different language, with a **different grammar**. 
 	
 	HTML is for **content and structure**.
 	
 	CSS is for **style and design**.
 	
+	
+* Let's give our comic a balanced, **centred layout**. 
+
+		body
+		{
+			max-width: 600px;
+			margin: auto;
+		}	
+	
 * **Ask students** how we can go about **styling the speech bubbles**. 
 
-	One way would be to assume that each `<p>` inside a `<section>` is a speech bubble, and target them specifically like this with CSS
+	Since we gave all our speech bubbles a `class` name, we can now target them specifically like this with CSS
 	
-	`section p {}` 
+	`p.bubble {}` 
 	
 	Point out that it's **good practice** to always open and close the **curly brackets** to avoid forgetting it and confusing the browser.
 	
-	  section p
+	  p.bubble
       {
         background: pink;
         padding: 10px;
+        margin: 0px;
       }
+  
+* Add `margin` to **separate** the panels.
+		
+		margin-bottom: 10px;  
       
 * Now we want to **position** our speech bubbles inside the panels.
+
+	First of all, let's give our speech bubbles `id` names, as their position will be differents.
 
 	We want to say something like "browser, **offset** this speech bubble 50px from the top".
 	
@@ -170,21 +204,22 @@
 	
 	`position:absolute` offsets an element in relation to its **first, non-static ancestor**     
 
+
+* How do you **make different voices**? You're all dying to change the default look of your texts.
 	
-* Introduce `ids` to position each speech bubble individually.
+	Search for *Google Fonts*
+	
+	Pick one font quickly, you can change it later..
+	
+	Follow the instructions to include your chosen font in your page.
+	
+	Remember to change the `http` in the GF link to `https`
 
-* **Margins** for `section`
 
-* **Margins** and *max-width* for `body`
-
-* **Fonts**!
-
-* **Ask students to embed a Youtube video** in their comic.
 
 
 ## Optionals
 
-* **Classes**?
 
 * **Ask students to embed a Google map** in their comic.
 * **Ask students to embed a Twitter widget** in their comic.

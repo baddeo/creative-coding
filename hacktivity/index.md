@@ -43,6 +43,10 @@
 
 1. <input type="checkbox"> `background`
 
+- <input type="checkbox"> `max-width`
+
+- <input type="checkbox"> `margin: auto`
+
 - <input type="checkbox"> `padding`
 
 - <input type="checkbox"> Use `.class` for shared styles
@@ -61,9 +65,7 @@
 
 1. <input type="checkbox"> `width` and `height`, in px and %
 
-- <input type="checkbox"> `max-width`
 
-- <input type="checkbox"> `margin: auto`
 
 - <input type="checkbox"> *OPTIONAL* `border-radius`
 
@@ -71,5 +73,4 @@
 
 - <input type="checkbox"> *OPTIONAL* `overflow: hidden`
 
-- <input type="checkbox"> *OPTIONAL* Make the speech bubble's **arrow**
 
