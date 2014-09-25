@@ -122,3 +122,57 @@
 		right: -70px;
 	}
 
+/* FLASH ANIMATION */
+
+	@-webkit-keyframes flash {
+		0%, 50%, 100% {opacity: 1;}	
+		25%, 75% {opacity: 0;}
+	}
+
+	@-moz-keyframes flash {
+		0%, 50%, 100% {opacity: 1;}	
+		25%, 75% {opacity: 0;}
+	}
+
+	@-ms-keyframes flash {
+		0%, 50%, 100% {opacity: 1;}	
+		25%, 75% {opacity: 0;}
+	}
+
+	@-o-keyframes flash {
+		0%, 50%, 100% {opacity: 1;}	
+		25%, 75% {opacity: 0;}
+	}
+
+	@keyframes flash {
+		0%, 50%, 100% {opacity: 1;}	
+		25%, 75% {opacity: 0;}
+	}
+
+	.flash,
+	.flash-slow,
+	.flash-slower 
+	{
+		-webkit-animation-name: flash;
+		-moz-animation-name: flash;
+		-ms-animation-name: flash;
+		-o-animation-name: flash;
+		animation-name: flash;
+
+		-webkit-animation-iteration-count: infinite; 
+	}
+
+	.flash
+	{
+		-webkit-animation-duration: 2s; 
+	}
+
+	.flash-slow
+	{
+		-webkit-animation-duration: 2.5s; 
+	}
+
+	.flash-slower
+	{
+		-webkit-animation-duration: 3s; 
+	}
