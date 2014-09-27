@@ -1,8 +1,8 @@
 # Creative Coding
 
-A one-day, hands-on workshop taking participants from no (or very little) coding skills, to creating their first Web *comic*. 
+**A crash course in Web-making.** 
 
-People will explore the potential of the Web as an open platform for self-expression, as well as learning the fundamentals of HTML and CSS.
+Through a hands-on project, participants will explore the potential of the Web as an open platform for self-expression, as well as learning the fundamentals of HTML, CSS and JavaScript.
 
 ### First iteration(s) at Ravensbourne
 
