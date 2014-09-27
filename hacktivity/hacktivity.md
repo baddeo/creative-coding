@@ -1,6 +1,6 @@
 # HACKtivity
 
-#### Before we start
+### Before we start
 
 - If you're **getting stuck** or falling behind, please tell me straight away. Sometimes it's just a matter of a missing semi-colon or so..
 	
@@ -8,7 +8,7 @@
 
 
 
-#### Let's code
+### Let's code
 
 1. Search for Webmaker
 * Go to Webmaker and sign in (with Persona)
@@ -16,7 +16,7 @@
 * Create `<html>`, `<head>` and `<body>` as the **skeleton** of every and any webpage. **Like a person**, it has a head and a body.
 
  	`<body>` is the visible part of an HTML page. 
-* Make a `<p>`.
+* Make a `<p>`, make it about your chosen topic (*what if*, *what is* or *how to*).
 * Save and preview
 	
 	**Pay attention here** If you add `_` at the end of the published URL you get a clean, iframe-less comic.
@@ -95,10 +95,8 @@
 	
 	
 	
-	
-* Take a **break**!	
-	
-	
+
+### Take a **break**!	
 	
 	
 	
@@ -106,7 +104,9 @@
 	
 	
 	
-* Now we've got **all our content marked-up**. 
+	
+	
+1. Now we've got **all our content marked-up**. 
 
 	So we're **done with HTML**, the browser knows about all the content of our comic.
 	
@@ -178,7 +178,20 @@
 * Add `margin` to **separate** the panels.
 		
 		margin-bottom: 10px;  
-      
+
+* How do you **make different voices**? You're all dying to change the default look of your texts.
+	
+	Search for *Google Fonts*
+	
+	Pick one font quickly, you can change it later..
+	
+	Follow the instructions to include your chosen font in your page.
+	
+	Remember to change the `http` in the GF link to `https`
+	
+	
+### Take another **break**!	
+
 * Now we want to **position** our speech bubbles inside the panels.
 
 	First of all, let's give our speech bubbles `id` names, as their position will be differents.
@@ -202,18 +215,7 @@
 	
 	`position:relative` offsets an element in relation to **itself**
 	
-	`position:absolute` offsets an element in relation to its **first, non-static ancestor**     
-
-
-* How do you **make different voices**? You're all dying to change the default look of your texts.
-	
-	Search for *Google Fonts*
-	
-	Pick one font quickly, you can change it later..
-	
-	Follow the instructions to include your chosen font in your page.
-	
-	Remember to change the `http` in the GF link to `https`
+	`position:absolute` offsets an element in relation to its **first, non-static ancestor**    
 
 
 

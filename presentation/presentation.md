@@ -4,7 +4,7 @@ For many of you, this will be a **memorable day**! You'll write your **first lin
 
 Exciting, **fun**!
 
-*On a practical note*, our **schedule** is.. we will have **breaks** at..
+*On a practical note*, our **schedule** is.. we will have **breaks** at around 11:30 (half an hour) and 13:30 (1 hour)
 
 
 ## What is code?
@@ -33,6 +33,8 @@ PEOPLE → **Spotting patterns** (connecting the dots), thinking **outside the b
 
 **Code is a tool**, is how we can get computers to do the **heavy lifting for us**, so that we can focus on being **creative**.
 
+PEOPLE are **good at writing code**.
+
 
 ## Who is a coder?	
 
@@ -55,7 +57,7 @@ Like **learning a new language**, **translating** your ideas into code.
 
 A bit of **grammar** and **vocabulary**, and mostly you can learn by **copying**.
 
-### Copy
+## Copy + hack
 
 To learn typography, you copy and **edit** fonts. 
 
@@ -102,7 +104,7 @@ If you haven't mistyped your request, this will reach a server on the other end.
 A **server** is a computer that is always on. Receives requests and cooks responses, which are sent back to the browser as **HTML code**. 
 
 
-### HTML
+## HTML
 
 What does HTML stand for? 
 
@@ -122,6 +124,14 @@ Anything between **angle brackets** is instructions for the browser.
 
 Use the **sandwich analogy** to explain HTML tags.
 
+## HTML + CSS
+
+HTML → `<p>content + structure </p>`
+
+CSS → `p { color: red; }` style
+
+Different **languages**, different **purpose**, different **symbols**
+
 
 ## What is a (Web) comic?
 
@@ -131,11 +141,12 @@ Mostly to tell a **story** (starts somewhere sometimes, things happen, happy or 
 
 ## What is a/your Web comic?
 
+Show examples. We'll start from *this* comic, but your Web comic could become a **storyboard**, a **lookbook**, and **interactive poster**, an online **magazine**, a blog **post**. It’s really up to you.
+
 On the **Web**, you can have **more** than images and text: embed video, audio & animation, you can get people to **draw** instead of just **read** (e.g. maps, drawing canvas), social media feeds and buttons... 
 
 A **comic is *not just* about telling stories**: communicate **ideas**, express **opinions**, raise **awareness**, present **projects**..
 
-Your Web comic could become a **storyboard**, a **lookbook**, and **interactive poster**, an online **magazine**, a blog **post**. It’s really up to you.
 
 ## Brief
 
