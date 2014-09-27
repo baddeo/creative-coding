@@ -1,17 +1,27 @@
 # Presentation
 
-For many of you, this will be a **memorable day**! You'll write your **first line of code**, and by mid-afternoon you'll have made **your very own web-page**, from **scratch**!
+
+## Creative coding
+
+Today we're getting **creative** with **code**.
+
+For many of you, this will be a **memorable day**! You'll write your **first line of code**, and by mid-afternoon you'll have made **your very own app**, from **scratch**!
 
 Exciting, **fun**!
 
 *On a practical note*, our **schedule** is.. we will have **breaks** at around 11:30 (half an hour) and 13:30 (1 hour)
 
 
+## Two words about myself
+
+
 ## What is code?
 
 **Why** do we need code? What is code used for? Who or what runs code? **Where** is code?
 
-It's **instructions** to a computer: extremely powerful, fundamentally thick. 
+It's **instructions** to a computer: extremely powerful, fundamentally thick.
+
+![](https://raw.githubusercontent.com/baddeo/creative-coding/master/RESTaurant/terminal.png) 
 
 Imagine a computer is your most pedantic **friend**: 
 
@@ -21,7 +31,10 @@ Imagine a computer is your most pedantic **friend**:
 
 ### Spot the difference
 
-To realise the level of precision and **pedantry** your digital friend requires
+To realise the level of precision and **pedantry** your digital friend requires.
+
+- [ ] But we're using [SLIM](http://slim-lang.com/) right? So does it make sense to show *real* HTML?
+
 
 ## What are computers good at?
 
@@ -36,13 +49,11 @@ PEOPLE → **Spotting patterns** (connecting the dots), thinking **outside the b
 PEOPLE are **good at writing code**.
 
 
-## Who is a coder?	
+## Are you a coder?	
 
 ### Who makes code?
 
-Code is executed by **machines**, and written by **people**.
-
-Misconception: coding is for people who really know what they're doing, who have code just flowing out of their brains..
+**Misconception**: coding is for people who really know what they're doing, who have code just flowing out of their brains..
 
 Anyone who uses code to **solve problems or make things**, *creatively* and *collaboratively*.
 
@@ -53,9 +64,10 @@ A coder is someone like me, someone like you. **I'm no computer scientist**.
 
 Like **learning a new language**, **translating** your ideas into code.
 
-**Today** you're going to learn **2 new languages**.
+**Today** you're going to learn **3 new languages**.
 
 A bit of **grammar** and **vocabulary**, and mostly you can learn by **copying**.
+
 
 ## Copy + hack
 
@@ -65,26 +77,21 @@ To become a pattern cutter, you **deconstruct** and copy good garments.
 
 To make things on the Web, you **inspect** and copy good websites.
 
-**Today** you're going to **copy me** before lunch, **hack it** after lunch.
+**Today** you're going to **copy me** for a bit, then **hack** what you've copied into something **new**.
 
 
 ## Today
 
-You will make a **Web comic**. 
+Maybe a joke about making a *relational database*?
 
-I will show you a few **coding tricks** and we'll lay the **foundations** of your Web comic together. 
+You will make an **app**.  
 
-Then you will explore the **potential of the Web**, and experiment with the **visual language** of a comic.
+I will show you a few **coding tricks** and we'll lay the **foundations** of your app together. 
 
-It will be up to you to *fill in the gaps*, and bring your Web comic to life.
+Then you will explore the **potential of the Web** as an open platform for you to **express your creativity**.
 
-## What is a Web comic?
 
-* Any ideas?
-
-It's a comic, on the Web... right? It's **more** than a standard printed comic, put on the Web. 
-
-## What is a Web (comic)?
+## What is the Web?
 
 The Web is not the Internet. If the Internet is a global **brain** (infrastructure), the Web is all the **memories and thoughts** that run on top of it.
 
@@ -93,76 +100,86 @@ The WWW started as a way of **linking** scientific documents together, over **2 
 TBL → **hypertext + Internet = WWW**, he specified a set of **rules** (HTTP) for computers to exchange documents over the Internet, and a standard **format** for these documents (HTML). 
 
 
-## How does the WWW work?
+## How does it WWWork?
 
-(Image of *browser* and *server*, with *HTTP* and *HTML* in between)
+![](https://raw.githubusercontent.com/baddeo/creative-coding/master/RESTaurant/http.png)
 
 The **browser** takes an HTTP request from you and sends it to the Internet, to find a resource/page/site that responds to your request.
 
 If you haven't mistyped your request, this will reach a server on the other end.
 
-A **server** is a computer that is always on. Receives requests and cooks responses, which are sent back to the browser as **HTML code**. 
+A **server** is a computer that is always on. Receives requests and cooks responses, which are sent back to the browser as **HTML code**.
+
+- [ ] Not just HTML, but also CSS and JS
+
+**RESTaurant analogy**. Sometimes (in the old days) the server sends back a **cooked meal**, in most cases it sends back a list of **ingredients** and a **recipe**.
 
 
-## HTML
+## HTML + CSS + JavaScript
 
-What does HTML stand for? 
+Different **languages**, different **concerns** (or jobs/purposes)
 
-* Any ideas?
+HTML → structure and content 
 
-**Markup** is the key word here (it's a concept borrowed from **typesetting in print**).
+CSS → style and design 
 
-As humans we **understand information visually** (eg big/small text in a magazine), but computers/browsers don't. So we need to **mark our content up**, ie tell the browser "This is an image, this a paragraph, this is a title, this is a section etc."
+JS → behaviour and logic
 
-    <p>Follow me on Twitter</p>
-    
-    then
-    
-    <p><a href="//twitter.com/baddeo">Follow me on Twitter</a></p>
-    
-Anything between **angle brackets** is instructions for the browser.
+**RECIPE analogy** (ingredients - serving suggestions - method)
 
-Use the **sandwich analogy** to explain HTML tags.
-
-## HTML + CSS
-
-HTML → `<p>content + structure </p>`
-
-CSS → `p { color: red; }` style
-
-Different **languages**, different **purpose**, different **symbols**
+(what - how - when/if)
 
 
-## What is a (Web) comic?
+## Coding vs programming
 
-It's a **sequence** of images and text that are **linked** together (bit like the Web). 
+Coding → structuring information (HTML + CSS)
 
-Mostly to tell a **story** (starts somewhere sometimes, things happen, happy or sad ending).
+Programming → breaking down **behaviour** (JavaScript)
 
-## What is a/your Web comic?
+## Programming
 
-Show examples. We'll start from *this* comic, but your Web comic could become a **storyboard**, a **lookbook**, and **interactive poster**, an online **magazine**, a blog **post**. It’s really up to you.
-
-On the **Web**, you can have **more** than images and text: embed video, audio & animation, you can get people to **draw** instead of just **read** (e.g. maps, drawing canvas), social media feeds and buttons... 
-
-A **comic is *not just* about telling stories**: communicate **ideas**, express **opinions**, raise **awareness**, present **projects**..
+* Variables → data
+* Functions → actions
+* Logic → decisions
 
 
-## Brief
 
-### What if...
 
-### What is...
 
-### How to...
 
-Pick one of the **starters**, complete the sentence, then make a Web comic about it.
 
-Your Web comic has to include at least one **hyperlink** and one **embed**.
+
+
+The Web is full of resources: **open-source** code and **open data** that you can use to make amazing apps!
+
+
+## Open what?
+
+* Free? Why?
+* What is **open-source**? Libraries, GitHub, reputation economy..
+* What is **open data**? APIs, WikiPedia
+
+
+
+## Your brief
+
+Make an app that helps people **make a decision**.
+
+The app must take in some human **input**, use **code** to manipulate it, and then present a human-readable **output**.
+
+You can use **data** from the Web to help people make a decision.
+
+Eg: you can use **weather data** to help people decide if they should take an umbrella or not. Or you can use **[unistats](http://unistats.direct.gov.uk/) data** to help people decide what university they should apply for..
+
+
+
+
+
+
 
 ## Become Web-literate
 
-By making a Web comic today, you will get to know the **fabrics** of the Web (HTML, CSS and JavaScript), and become **confident** to use code to **express your ideas creatively**.
+By making an app today, you will get to know the **fabrics** of the Web (HTML, CSS and JavaScript), and become **confident** to use code to **express your ideas creatively**.
 
 Today is not about becoming proficient coders (although this could be your starting point), but rather to become **confident in tinkering with code**. To see code as a **toolbox**, and not something **scary** or too **complex**.
 
@@ -173,33 +190,9 @@ Being Web-literate will enable you to use the Web as an open platform, a place w
 
 
 
-## 
+## Let's code
 
-
-# Notes
-
-##### 10.09
-
-- Should explain the difference between HTML and CSS before we start coding? Maybe there should also be a slide for CSS?
-
-- [x] Instead of `<b>` show `<a>`
-
-- [x] *Spot the difference* at the beginning of the presentation, when talking about *what is code* and the pedantic friend analogy.
-	
-- [x] Do we need to end with the *Become Web-literate* slide? Or perhaps something more practical, like 
-
-	*Go online, find Webmaker and sign in.*
-	
-- [x] Instead of asking people for *a / their favourite website*, just use Facebook and change its header `background` to demostrate that you can inspect&tinker with any website.
-
-##### 16.09
-
-- [x] What are computers good at, what are you good at?
-- [x] Spot the difference with `src-scr`
-- [x] Remove Facebook hack (can show that at the beginning of the *Hacktivity*)
-- [x] Copy (me) before lunch, hack it after lunch
-- [x] Re-jig *What is the Web?* slide
-- [x] Remove *Can you learn to code in a day?* slide
-
- 
+* Go online
+* Find [CodePen](http://codepen.io/)
+* Sign up 
 
