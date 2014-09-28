@@ -130,53 +130,6 @@ JS → behaviour and logic
 (what - how - when/if)
 
 
-## Coding vs programming
-
-Coding → structuring information (HTML + CSS)
-
-Programming → breaking down **behaviour** (JavaScript)
-
-## Programming
-
-* Variables → data
-* Functions → actions
-* Logic → decisions
-
-
-
-
-
-
-
-
-
-The Web is full of resources: **open-source** code and **open data** that you can use to make amazing apps!
-
-
-## Open what?
-
-* Free? Why?
-* What is **open-source**? Libraries, GitHub, reputation economy..
-* What is **open data**? APIs, WikiPedia
-
-
-
-## Your brief
-
-Make an app that helps people **make a decision**.
-
-The app must take in some human **input**, use **code** to manipulate it, and then present a human-readable **output**.
-
-You can use **data** from the Web to help people make a decision.
-
-Eg: you can use **weather data** to help people decide if they should take an umbrella or not. Or you can use **[unistats](http://unistats.direct.gov.uk/) data** to help people decide what university they should apply for..
-
-
-
-
-
-
-
 ## Become Web-literate
 
 By making an app today, you will get to know the **fabrics** of the Web (HTML, CSS and JavaScript), and become **confident** to use code to **express your ideas creatively**.
@@ -188,6 +141,46 @@ You may want to become a fashion designer, or a (ask)? However as a **creative p
 Being Web-literate will enable you to use the Web as an open platform, a place where you can be a **maker**, instead of a **consumer**. 
 
 
+## Open what?
+
+The Web is full of resources: **open-source** code and **open data** that you can use to make amazing apps!
+
+* Free? Why?
+* What is **open-source**? Libraries (jQuery), GitHub, reputation economy..
+* What is **open data**? APIs, WikiPedia
+
+
+## Your brief
+
+Make an app that helps people **make a decision**.
+
+The app must take in some human **input**, use **code** to manipulate it, and then present a human-readable **output**.
+
+You can use **data** from the Web to help people make a decision.
+
+Eg: you can use **[weather data](http://www.wunderground.com/weather/api)** to help people decide if they should take an umbrella or not. Or you can use **[unistats](http://unistats.direct.gov.uk/) data** to help people decide what university they should apply for.
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Computational thinking
+
+Before we start coding our apps, let's pretend that I'm a **robot** and you need to code me.
+
+* Data → Variables 
+* Actions → Functions 
+* Decisions → Logic
+
+(The idea is to engage people with an [easy task](http://pss.sagepub.com/content/early/2012/08/31/0956797612446024.abstract) before we challenge them with a demanding one)
 
 
 ## Let's code
