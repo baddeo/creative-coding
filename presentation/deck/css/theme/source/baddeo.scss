@@ -105,6 +105,11 @@ $selectionColor: $yellow;
 		h1 
 		{ 
 			font-size: 3em; 
+
+			&.highlight
+			{
+				font-size: 5em;
+			}
 		}
 		
 		h2 
@@ -169,10 +174,13 @@ $selectionColor: $yellow;
 					}
 				}
 
-				.blue
+				.blue,
+				.highlight
 				{
 					color: $blue;
-				}	
+				}
+
+
 
 				img
 				{
@@ -282,6 +290,11 @@ $selectionColor: $yellow;
 					}
 				}
 			}
+		}
+
+		.attribution
+		{
+			font-size: 0.23em;
 		}
 	}
 
