@@ -19,6 +19,10 @@ Exciting, **fun**!
 
 **Why** do we need code? What is code used for? Who or what runs code? **Where** is code?
 
+Code existed before computers (think *Morse code*, *post code*, *dress code*).
+
+Code is about **communication**. If I want to talk to my **grandma**, I need to use Italian. To communicate with you, I use English. To **talk to a computer**, I use..
+
 It's **instructions** to a computer: extremely powerful, fundamentally thick.
 
 ![](https://raw.githubusercontent.com/baddeo/creative-coding/master/RESTaurant/terminal.png) 
@@ -33,7 +37,7 @@ Imagine a computer is your most pedantic **friend**:
 
 To realise the level of precision and **pedantry** your digital friend requires.
 
-- [ ] But we're using [SLIM](http://slim-lang.com/) right? So does it make sense to show *real* HTML?
+- [x] But we're using [SLIM](http://slim-lang.com/) right? So does it make sense to show *real* HTML?
 
 
 ## What are computers good at?
@@ -82,7 +86,7 @@ To make things on the Web, you **inspect** and copy good websites.
 
 ## Today
 
-Maybe a joke about making a *relational database*?
+Joke about making a *relational database*
 
 You will make an **app**.  
 
@@ -95,7 +99,7 @@ Then you will explore the **potential of the Web** as an open platform for you t
 
 The Web is not the Internet. If the Internet is a global **brain** (infrastructure), the Web is all the **memories and thoughts** that run on top of it.
 
-The WWW started as a way of **linking** scientific documents together, over **2 computers in Switzerland**. 
+The WWW started as a way of **linking** academic documents together, over **2 computers in Switzerland**. 
 
 TBL → **hypertext + Internet = WWW**, he specified a set of **rules** (HTTP) for computers to exchange documents over the Internet, and a standard **format** for these documents (HTML). 
 
@@ -108,9 +112,7 @@ The **browser** takes an HTTP request from you and sends it to the Internet, to 
 
 If you haven't mistyped your request, this will reach a server on the other end.
 
-A **server** is a computer that is always on. Receives requests and cooks responses, which are sent back to the browser as **HTML code**.
-
-- [ ] Not just HTML, but also CSS and JS
+A **server** is a computer that is always on. Receives requests and cooks responses, which are sent back to the browser as **HTML+CSS+JS code**.
 
 **RESTaurant analogy**. Sometimes (in the old days) the server sends back a **cooked meal**, in most cases it sends back a list of **ingredients** and a **recipe**.
 
@@ -138,7 +140,7 @@ Today is not about becoming proficient coders (although this could be your start
 
 You may want to become a fashion designer, or a (ask)? However as a **creative professional in the 21st century you can’t be Web-illiterate**. Just like you have to be able to read and write, and do some maths. You need to understand a bit of code. 
 
-Being Web-literate will enable you to use the Web as an open platform, a place where you can be a **maker**, instead of a **consumer**. 
+Being Web-literate will enable you to use the Web as an **open platform**, a place where you can be a **maker**, instead of a **consumer**. 
 
 
 ## Open what?
@@ -161,24 +163,17 @@ You can use **data** from the Web to help people make a decision.
 Eg: you can use **[weather data](http://www.wunderground.com/weather/api)** to help people decide if they should take an umbrella or not. Or you can use **[unistats](http://unistats.direct.gov.uk/) data** to help people decide what university they should apply for.
 
 
+## Let's talk about POP
 
+Principles of Programming
 
+Before we start coding the **behaviour** of our app, let's pretend that I'm a **robot** and you need to code me.
 
+**Building blocks**
 
-
-
-
-
-
-
-
-## Computational thinking
-
-Before we start coding our apps, let's pretend that I'm a **robot** and you need to code me.
-
-* Data → Variables 
-* Actions → Functions 
-* Decisions → Logic
+* Data → Variables **nouns**
+* Actions → Functions **verbs**
+* Decisions → Logic **conjunctions**
 
 (The idea is to engage people with an [easy task](http://pss.sagepub.com/content/early/2012/08/31/0956797612446024.abstract) before we challenge them with a demanding one)
 
