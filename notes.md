@@ -117,14 +117,14 @@
 * **What if** etc. also seemed to work well, people picked more interesting topics.
 * [x] Let's do the `position` style after fonts, after lunch break.
 * Not sure if `element.style` is a good way to introduce CSS 
-* [ ] We need a **slide** for HTML and CSS
+* [x] We need a **slide** for HTML and CSS
 * [ ] How to get people more **excited** about the potential of Web-making? We should tell them that by the end of the day they'll have made **their first very own web page**, and once you made a page you can take that knowledge further to make a website, customise your blog, get paid to make websites for someone else, code an app.. it's the **start of a journey**. 
 * [ ] Maybe the initial slides about **spotting differences** are putting people off? Need to make them more fun, turn them into a competitive activity between two teams? Or note down the differences and then ask them how many they've spotted?
-* They don't want to make comics, they want to make **apps**!
+* [x] They don't want to make comics, they want to make **apps**!
 
 ### 27.09
 
-* Let's try and **make an app** then. It can be a simple *Help me decide* one, where you type in two options in a stylish `form` and there's a bit of **JS** code that picks one randomly and then presents it to you in a glorified, *You should {option 1}* way, similar to the [Authentic weather app](http://authenticweather.com/). It can easily be extended to become a *paper-scissors-stone game*. It should have *social sharing* options once you've got your response.
+* [x] Let's try and **make an app** then. It can be a simple *Help me decide* one, where you type in two options in a stylish `form` and there's a bit of **JS** code that picks one randomly and then presents it to you in a glorified, *You should {option 1}* way, similar to the [Authentic weather app](http://authenticweather.com/). It can easily be extended to become a *paper-scissors-stone game*. It should have *social sharing* options once you've got your response.
 
 #### JSBin or CodePen?
 
