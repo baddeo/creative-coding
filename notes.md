@@ -146,3 +146,32 @@
 	+ Shows you the <head> 
 	+ It's more transparent when you drop in a library (adds it to the <head>)
 	+ CONSOLE tab to noodle
+	
+	
+### 01.10
+
+#### Presentation
+
+* *How does it wwwork?* "Just tell us" one said
+* They like  *WWWtf*
+* *Database* joke could work, but I have to exaggerate it a bit
+* **Open what?** slide needs a bit of a verbal transition and intro
+
+#### APPtivity
+
+* Showed the finished app before getting the HTML *shopping list*
+* Elements first, attributes later (starting with `placeholder`, then `type`, `name` and `for`)
+* *Democracy*: when we finished the HTML part, I asked students to **choose** if they wanted to style the app first, or make it work. Majority: make it work. OK, but keep in mind that styling is going to be easier than make it work. Hands up, still the majority of people want to go for the hard task first :)
+* *Democracy* is nice but maybe we want to do some styling before we dig into JS. people should respond better to an app that looks good, rather than one that looks shitty.
+* **JS doodling** without calculator. Started with `hello / "hello"`, moved on to `alert()` and `prompt()`, then variables
+* Showed the **Web Inspector** and *hacked* Facebook before meeting the **Console**. Changing the the text to *Facebook **doesn't** help you connect..* sparked amusement (more than changing the `background`)	
+* [ ] As a first JS task, after the `console.log()` we could do `p.hide()` and then `p.fadeIn()` inside the `onSubmitForm` function? The idea is to give people some quick win, otherwise they'll get bored before they can see anything appearing on screen!
+* [ ] As a second task, we could build a `makeDecision` or so function. Explain that we couldput some complex logic to it, but for now we're just going to spit a random number.
+* Robot activity worked well :)
+* [ ] How do we introduce *concatenation*? Maybe during the doodling.
+* [ ] Need to get default values to the inputs to avoid typing in all the time
+* [ ] Tweet and FB buttons we can do later
+* [ ] CSS or sass? Doesn't work well with Google Fonts
+* [ ] Easy css stuff like color and background first
+* [ ] How to make the `p#message` style easier / less lines?
+* [ ] `display:none` couled be an easy one to show
