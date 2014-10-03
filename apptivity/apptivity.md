@@ -1,5 +1,7 @@
 # APPtivity
 
+The [finished app](http://codepen.io/baddeo/full/jsICq/)
+
 ## Let's code
 
 1. Find **CodePen**
@@ -14,7 +16,9 @@
 * `h1` (let's keep this because it'll be useful for Google Fonts)
 * `form`
 * `input` (Make sure you add `name` attributes!)
-*  `button`
+*  `button`  (can show Google Search at this point to explain how forms work)
+*  difference between `value` and `placeholder`
+*  No need to add `labels` for now
 * `p#message`
 * `a` links to share on TW and FB (kind of *optional*, but rather important to leanr how to make hyperlinks, and how to use `class` with eg: `a.link`)
 * **Compiled preview**
@@ -99,5 +103,10 @@
 * Form submit on `Enter` only with one `input`, if you have 2+ then you need a `submit` input/button
 
 
+## 03.10
 
-http://codepen.io/baddeo/full/jsICq/
+1.  text app link to phone
+* fix viewport
+* add icon
+* style fonts
+* background image
