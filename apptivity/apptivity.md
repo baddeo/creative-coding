@@ -54,7 +54,8 @@
 1. Make `p#message` fade in and fade out on click
 * Give the social buttons some behaviour
 
-
+* [ ] Click on Share and then send to your phone
+* [ ] Get people to tweet their app link to @baddeo (easier than email)
 
 ## Style
 
