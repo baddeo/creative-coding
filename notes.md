@@ -175,3 +175,40 @@
 * [ ] Easy css stuff like color and background first
 * [ ] How to make the `p#message` style easier / less lines?
 * [ ] `display:none` couled be an easy one to show
+
+### 02.10
+
+#### Presentation
+
+* [x] Show **reveal.js** instead (or tegether with) jQuery in the **Open what?** slide
+
+#### APPtivity
+
+* Used **standard HTML** (not SLIM), the reason for it is that today's students are going to build on top of this project, so it makes sense for them to use standard HTML. If it's a one-off, maybe SLIM would still make sense?
+* Used **standard CSS** (not SASS, there's no need for it for such a small thing)
+* Tiny bit of CSS to center the `h1` and hide the `p`, then dig into JS
+* Quick win with JS is `p.fadeIn()`, then wrap it inside `form.on("submit", doSomething)`
+* `onSomething` is not defined, let them experience the **error** (maybe let them experience also `jQuery is undefined`?)
+* **Console**: got asked again *What's the purpose of this?* when showing `Math.random()`. Is it the maths that put people off, or the whole *getting familiar with the console* part? 
+* [ ] Keep **console noodling** to the minimum. Define a set of things/concepts to show before we go back to the app.
+* People understand that it's **useful to log stuff** in the console, because with JS, unlike HTML and CSS, we can't see immediately whether it works or not.
+
+### 03.10
+
+#### Presentation
+
+* Slow start, mumbled the first slide but then picked myself up. Need to practice the first slide really well, cause it's the hardest moment (you're sleepy, they're sleepy) and it doesn't make a good impression if you sound like a cranky engine starting up.
+
+#### APPtivity
+
+* Use **standard HTML**, people get it :)
+* [ ] Maybe we don't need `#message`?
+* Explaining `form` by showing Google search works well
+* People don't get the difference between `placeholder` and `value` unless we make it explicit	
+* Before jumping into JS, do a bit of CSS. Quick wins like 
+	* `text-align: center;` for `h1`
+	* `font-size`, `padding`, `color` and `background-color` for `button`
+* Show [Kuler](https://kuler.adobe.com/create/color-wheel/) to pick colours and introduce #hex values
+* We got all the JS done before lunch! But how much did they actually understand? I think `variables` are still not clear
+* [ ] people struggle with `getRandom(min,max)` and `getRandom(0,1)`.. how to explain that?
+* [ ] people struggle with the idea of replacing `option2` with `choice`
