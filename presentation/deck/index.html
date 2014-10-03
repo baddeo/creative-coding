@@ -85,41 +85,6 @@
 					</aside>  
 				</section>
 
-				<section id="spot" class="has-code" data-transition="linear" data-transition-speed="fast">
-					<h2>Spot the <b>difference</b>s</h2>
-					<div contenteditable>
-						<div class="differences-group fragment fade-out" data-fragment-index="1">
-							<!-- <h3 class="pseudo-code"><b>&lt;p&gt;</b>Hello<b>&lt;/p&gt;</b></h3>
-							<h3 class="pseudo-code"><b>&lt;p</b>Hello<b>&lt;p/&gt;</b></h3> -->
-							<h3 class="pseudo-code"><i class="fa fa-check"></i> <b>p#message</b> I'm a paragraph</h3>
-							<h3 class="pseudo-code"><i class="fa fa-close"></i> <b>p# Message</b> I'm a paragraph</h3>
-						</div>
-						<div class="fragment" data-fragment-index="2">
-							<div class="differences-group fragment fade-out" data-fragment-index="3">
-								<!-- <h3 class="pseudo-code"><b>&lt;img src=<span class="value">"selfie.jpg"</span>&gt;</b></h3>
-								<h3 class="pseudo-code"><b>&lt;img scr =<span class="value">selfie.png</span>&gt;</b></h3> -->
-								<h3 class="pseudo-code"><i class="fa fa-check"></i> <b>p#message </b> color<b>:</b> blue</h3>
-								<h3 class="pseudo-code"><i class="fa fa-close"></i> <b>message#p </b> colour blue</h3>
-							</div>
-							<div class="differences-group fragment" data-fragment-index="4">
-								<!-- <h3 class="pseudo-code"><b>p#code-1 {</b> color<b>:</b> blue<b>; }</b></h3>
-								<h3 class="pseudo-code"><b>p# code1 {</b> colour<b>:</b> blue<b>: }</b></h3> -->
-								<h3 class="pseudo-code"><i class="fa fa-check"></i> <b>var</b> msg <b>= jQuery("</b>p#message<b>")</b></h3>
-								<h3 class="pseudo-code"><i class="fa fa-close"></i> <b>ar</b> msg <b>= jquery(</b>p#message<b></b></h3>
-							</div>
-						</div>
-					</div>
-					<aside class="notes">
-						<p>To realise the level of precision and <strong>pedantry</strong> your digital friend requires</p>
-						Differences:
-						<ol>
-							<li>2</li>
-							<li>3</li>
-							<li>4</li>
-						</ol>
-					</aside>
-				</section>
-
 				<section id="good">
 					<h3>What are</h3>
 					<div class="fragment fade-out">
@@ -135,6 +100,7 @@
 						<span class="fragment">you</span>
 					</h1>
 					<h2><b>good at?</b></h2> -->
+
 					
 					<aside class="notes">
 						<p>COMPUTERS → <strong>Computing</strong> (calculating very fast, comparing quantities), <strong>repeating</strong> (boring) tasks endlessly, <strong>executing</strong> instructions, <strong>storing</strong> data.</p>
@@ -240,6 +206,41 @@
 					</aside>
 				</section>
 
+				<section id="spot" class="has-code" data-transition="linear" data-transition-speed="fast">
+					<h2>Spot the <b>difference</b>s</h2>
+					<div contenteditable>
+						<div class="differences-group fragment fade-out" data-fragment-index="1">
+							<h3 class="pseudo-code"><i class="fa fa-check"></i> <b>&lt;p id="</b>message<b>"&gt;</b>Hello<b>&lt;/p&gt;</b></h3>
+							<h3 class="pseudo-code"><i class="fa fa-close"></i> <b>&lt;p id="</b>message<b>"</b>Hello<b>&lt;p/&gt;</b></h3>
+							<!-- <h3 class="pseudo-code"><i class="fa fa-check"></i> <b>p#message</b> I'm a paragraph</h3>
+							<h3 class="pseudo-code"><i class="fa fa-close"></i> <b>p# Message</b> I'm a paragraph</h3> -->
+						</div>
+						<div class="fragment" data-fragment-index="2">
+							<div class="differences-group fragment fade-out" data-fragment-index="3">
+								<!-- <h3 class="pseudo-code"><b>&lt;img src=<span class="value">"selfie.jpg"</span>&gt;</b></h3>
+								<h3 class="pseudo-code"><b>&lt;img scr =<span class="value">selfie.png</span>&gt;</b></h3> -->
+								<h3 class="pseudo-code"><i class="fa fa-check"></i> <b>p#message {</b> color<b>:</b> blue <b>;}</b></h3>
+								<h3 class="pseudo-code"><i class="fa fa-close"></i> <b>p#message {</b> colour blue<b>:}</b></h3>
+							</div>
+							<div class="differences-group fragment" data-fragment-index="4">
+								<!-- <h3 class="pseudo-code"><b>p#code-1 {</b> color<b>:</b> blue<b>; }</b></h3>
+								<h3 class="pseudo-code"><b>p# code1 {</b> colour<b>:</b> blue<b>: }</b></h3> -->
+								<h3 class="pseudo-code"><i class="fa fa-check"></i> <b>var</b> msg <b>= jQuery("</b>p#message<b>")</b></h3>
+								<h3 class="pseudo-code"><i class="fa fa-close"></i> <b>ar</b> msg <b>= jquery(</b>p#message<b></b></h3>
+							</div>
+						</div>
+					</div>
+					<aside class="notes">
+						<p>To realise the level of precision and <strong>pedantry</strong> your digital friend requires</p>
+						Differences:
+						<ol>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+						</ol>
+					</aside>
+				</section>
+
 				<section id="web-literate">
 					<h2>Become </h2>
 					<h1><span class="highlight">Web</span>literate</h1>
@@ -253,7 +254,7 @@
 
 				<section id="open">
 					<h1><span class="highlight">Open</span> what?</h1>
-					<h2 class="fragment">Open <b>source</b> <a href="https://github.com/jquery/jquery" target="_blank"><i class="fa fa-github"></i></a></h2>
+					<h2 class="fragment">Open <b>source</b> <a href="https://github.com/hakimel/reveal.js/" target="_blank"><i class="fa fa-github"></i></a></h2>
 					<h2 class="fragment">Open <b>data</b> <a href="http://openweathermap.org/" target="_blank"><i class="fa fa-cloud"></i>+<i class="fa fa-umbrella"></i></a></h2>
 					<aside class="notes">
 						<p>The Web is full of resources: <strong>open-source</strong> code and <strong>open data</strong> that you can use to make amazing apps!</p>
@@ -279,7 +280,7 @@
 				<section id="codepen" data-transition-speed="fast"  data-transition="linear">
 					<h2>Go online</h2>
 					<h1>find <a href="http://codepen.io" target="_blank"><i class="fa fa-codepen"></i> CodePen</a></h1>
-					<h2>sign up</h2>
+					<h2>sign up (for free)</h2>
 				</section>
 
 				<section id="robot">
