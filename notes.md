@@ -112,7 +112,7 @@
 
 ### 26.09
 
-* [ ] Need to make the **presentation shorter** (20 minutes, about 1 minute per slide). Speed up, don't spend much time asking questions.
+* [x] Need to make the **presentation shorter** (20 minutes, about 1 minute per slide). Speed up, don't spend much time asking questions.
 * [x] Typing in the **skeleton** from scratch worked well, less errors later on.
 * **What if** etc. also seemed to work well, people picked more interesting topics.
 * [x] Let's do the `position` style after fonts, after lunch break.
@@ -165,16 +165,16 @@
 * *Democracy* is nice but maybe we want to do some styling before we dig into JS. people should respond better to an app that looks good, rather than one that looks shitty.
 * **JS doodling** without calculator. Started with `hello / "hello"`, moved on to `alert()` and `prompt()`, then variables
 * Showed the **Web Inspector** and *hacked* Facebook before meeting the **Console**. Changing the the text to *Facebook **doesn't** help you connect..* sparked amusement (more than changing the `background`)	
-* [ ] As a first JS task, after the `console.log()` we could do `p.hide()` and then `p.fadeIn()` inside the `onSubmitForm` function? The idea is to give people some quick win, otherwise they'll get bored before they can see anything appearing on screen!
-* [ ] As a second task, we could build a `makeDecision` or so function. Explain that we couldput some complex logic to it, but for now we're just going to spit a random number.
+* [x] As a first JS task, after the `console.log()` we could do `p.hide()` and then `p.fadeIn()` inside the `onSubmitForm` function? The idea is to give people some quick win, otherwise they'll get bored before they can see anything appearing on screen!
+* [ ] As a second task, we could build a `makeDecision` or so function. Explain that we could put some complex logic to it, but for now we're just going to spit a random number.
 * Robot activity worked well :)
-* [ ] How do we introduce *concatenation*? Maybe during the doodling.
-* [ ] Need to get default values to the inputs to avoid typing in all the time
-* [ ] Tweet and FB buttons we can do later
-* [ ] CSS or sass? Doesn't work well with Google Fonts
-* [ ] Easy css stuff like color and background first
+* [x] How do we introduce *concatenation*? With `console.log("option1 is " + option1)`.
+* [x] Need to get default values to the inputs to avoid typing in all the time
+* [x] Tweet and FB buttons we can do later
+* [x] CSS or sass? Doesn't work well with Google Fonts, so let's stick to CSS
+* [x] Easy CSS stuff like color and background first
 * [ ] How to make the `p#message` style easier / less lines?
-* [ ] `display:none` couled be an easy one to show
+* [x] `display:none` is an easy one to show
 
 ### 02.10
 
@@ -184,11 +184,11 @@
 
 #### APPtivity
 
-* Used **standard HTML** (not SLIM), the reason for it is that today's students are going to build on top of this project, so it makes sense for them to use standard HTML. If it's a one-off, maybe SLIM would still make sense?
+* Used **standard HTML** (not SLIM), as people findcode to copy-paste elsewhere in this format
 * Used **standard CSS** (not SASS, there's no need for it for such a small thing)
-* Tiny bit of CSS to center the `h1` and hide the `p`, then dig into JS
-* Quick win with JS is `p.fadeIn()`, then wrap it inside `form.on("submit", doSomething)`
-* `onSomething` is not defined, let them experience the **error** (maybe let them experience also `jQuery is undefined`?)
+* [x] Tiny bit of CSS to center the `h1` and hide the `p`, then dig into JS
+* [x] Quick win with JS is `p.fadeIn()`, then wrap it inside `form.on("submit", doSomething)`
+* [x] `doSomething` is not defined, let them experience the **error** (maybe let them experience also `jQuery is undefined`?)
 * **Console**: got asked again *What's the purpose of this?* when showing `Math.random()`. Is it the maths that put people off, or the whole *getting familiar with the console* part? 
 * [ ] Keep **console noodling** to the minimum. Define a set of things/concepts to show before we go back to the app.
 * People understand that it's **useful to log stuff** in the console, because with JS, unlike HTML and CSS, we can't see immediately whether it works or not.
@@ -202,7 +202,7 @@
 #### APPtivity
 
 * Use **standard HTML**, people get it :)
-* [ ] Maybe we don't need `#message`?
+* [x] Maybe we don't need `#message`?
 * Explaining `form` by showing Google search works well
 * People don't get the difference between `placeholder` and `value` unless we make it explicit	
 * Before jumping into JS, do a bit of CSS. Quick wins like 
@@ -210,5 +210,9 @@
 	* `font-size`, `padding`, `color` and `background-color` for `button`
 * Show [Kuler](https://kuler.adobe.com/create/color-wheel/) to pick colours and introduce #hex values
 * We got all the JS done before lunch! But how much did they actually understand? I think `variables` are still not clear
-* [ ] people struggle with `getRandom(min,max)` and `getRandom(0,1)`.. how to explain that?
-* [ ] people struggle with the idea of replacing `option2` with `choice`
+* [ ] People struggle with `getRandom(min,max)` and `getRandom(0,1)`.. how to explain that?
+* [ ] People struggle with the idea of replacing `option2` with `choice`
+
+#### POP
+
+* [ ] People get the idea of coding a robot, however they start by giving it very specific instructions (eg: walk 3 steps, turn 30 degrees, walk 2 steps). We can build an understading of **abstract functions** from there
