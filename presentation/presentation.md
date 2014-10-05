@@ -147,8 +147,8 @@ Being Web-literate will enable you to use the Web as an **open platform**, a pla
 
 The Web is full of resources: **open-source** code and **open data** that you can use to make amazing apps!
 
-* Free? Why?
-* What is **open-source**? Libraries (jQuery), GitHub, reputation economy..
+* Free? Why? It's **sharing** more than *giving away*.
+* What is **open-source**? Libraries (eg: [jQuery](https://github.com/jquery/jquery), [Reveal.JS](https://github.com/hakimel/reveal.js/)), GitHub, reputation economy..
 * What is **open data**? APIs, WikiPedia
 
 
@@ -162,6 +162,23 @@ You can use **data** from the Web to help people make a decision.
 
 Eg: you can use **[weather data](http://www.wunderground.com/weather/api)** to help people decide if they should take an umbrella or not. Or you can use **[unistats](http://unistats.direct.gov.uk/) data** to help people decide what university they should apply for.
 
+## Robot time!
+
+Let's pretend I'm a **robot** and you have to **code me**.
+
+* **Mission**: find an object in the room, pick it up.
+* I only understand these **commands**: `walk(steps)` and `turn(degrees)`
+* I can asnwer **questions**, only with a `yes` or `no`
+
+People usually start by giving you very *specific instructions* (eg: walk 3 steps, turn 45 degrees, walk 2 steps..)
+
+We can then make them their code more *abstract* and *flexible* with **logic** and **functions**.
+
+
+* [ ] Slide to show the game rules	
+	
+(The idea is to engage people with an [easy task](http://pss.sagepub.com/content/early/2012/08/31/0956797612446024.abstract) before we challenge them with a demanding one)
+	
 
 ## Let's talk about POP
 
@@ -174,8 +191,6 @@ Before we start coding the **behaviour** of our app, let's pretend that I'm a **
 * Data → Variables **nouns**
 * Actions → Functions **verbs**
 * Decisions → Logic **conjunctions**
-
-(The idea is to engage people with an [easy task](http://pss.sagepub.com/content/early/2012/08/31/0956797612446024.abstract) before we challenge them with a demanding one)
 
 
 ## Let's code
