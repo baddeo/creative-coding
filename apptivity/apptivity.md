@@ -11,88 +11,146 @@ The [finished app](http://codepen.io/baddeo/full/jsICq/)
 
 ## Structure
 
-1. Set up the HTML box: enable [SLIM](http://slim-lang.com/) and hide the JS and CSS boxes
+1. Set up the HTML box (hide the JS and CSS boxes)
+* Explain `body` and `head` 
 * Write all the content of our app 
-* `h1` (let's keep this because it'll be useful for Google Fonts)
+* `h1` (useful for Google Fonts)
 * `form`
-* `input` (Make sure you add `name` attributes!)
-*  `button`  (can show Google Search at this point to explain how forms work)
-*  difference between `value` and `placeholder`
-*  No need to add `labels` for now
-* `p#message`
-* `a` links to share on TW and FB (kind of *optional*, but rather important to leanr how to make hyperlinks, and how to use `class` with eg: `a.link`)
-* **Compiled preview**
+* `input`
+* Difference between `value` and `placeholder`
+* Add `name` attributes
+* `button type="submit"` with the same content of the `h1` to explain the concept of **markup**
+* Show Google Search at this point to explain how forms work 
+* `p`
 
 ##### OPTIONAL 
 
+* `a` links to share on TW and FB (rather important to learn how to make hyperlinks, and how to use `class` with eg: `a.link`)
+
+
+## Style intro
+
+Useful to show **selectors** and hide the `p`
+
+1. `h1` centred
+* `p`
+
+        p
+		{
+		  display: none;
+		}
+
+##### OPTIONAL 
+
+* `button`: `color` and `background`
+* [Normalize.css](http://necolas.github.io/normalize.css/)
+
+
+## Break!
+
+## Code a human
+
+AKA *Robot time*
+
+The idea is to engage people with an [easy task](http://pss.sagepub.com/content/early/2012/08/31/0956797612446024.abstract) before we challenge them with a demanding one
+
+1. Let's pretend I'm a **robot** and you have to **code me**.
+	* **Mission**: find an object in the room, pick it up.
+	* I only understand these **commands**: `walk(steps)` and `turn(degrees)`
+	* I can asnwer **questions**, only with a `yes` or `no`
+* People usually start by giving you very *specific instructions* (eg: walk 3 steps, turn 45 degrees, walk 2 steps..)
+* We can then make them their code more *abstract* and *flexible* with **logic** and **functions**.
 
 
 ## Behaviour
 
 1. Introduce `console.log`
 * Include **jQuery** (explain *libraries*)
-* Define **variables**
+* Make the `p` appear `jQuery("p").fadeIn()`
+* Write a function which triggers when you click on the submit button
 	
-	    form = jQuery('form'); // the form
-	    options = []; // an empty array
-		chosenOption
-		chosenValue
+	    $("form").on("submit", doSomething)
+	    
+* We've got a **bug**. Let's fix it, by defining `function doSomething()`
+* Make sure the function works, using `console.log` again
+* We have another bug, the page refreshes on form submit
+* Let's *google* `how to stop form refresh after submit`. 
+
+	Should get [this result](http://stackoverflow.com/questions/1263852/prevent-form-redirect-or-refresh-on-submit) first, which allows us to explain how SO works and use `return false`.
 	
-* Introduce **comments**
-* **Noodling?** 
-* Introduce **arrays**
-* Introduce **functions**
-* Let's *google* `jquery input values to array` (will bring up the [jQuery.serializeArray()](api.jquery.com/serializearray) method)
-* Let's *google* `JS function to get random number` (one of the first results will be from [StackOverflow](http://stackoverflow.com/questions/1527803/), good chance to introduce SO and pick the function we need)
-* Isolate the **value** that corresponds to the random option
-  
-      chosenValue = options[chosenOption].value
-      
-  This will be tricky I reckon.
-* Display the **message** (string **concatenation**)
-* Bonus: make the message *motivational* with `f*****`  
+	Otherwise, `e.preventDefault()` is an option too.
+	
+* Break down the app **behaviour**, introducing **comments**.
+	
+	    function doSomething()
+	    {
+	    	// 1. capture inputs
+	    	
+	    	// 2. make a choice
+	    	
+	    	// 3. display the choice
+	    }
+
+* Let's *google* `jquery get input value by name`.
+
+	This will bring up the [jQuery.val()](http://api.jquery.com/val/) method, as well as the [quick answer from SO](http://stackoverflow.com/questions/2109472/how-to-get-a-value-of-an-element-by-name-instead-of-id))
+
+* Show people how to store the value of the first option in a **variable** (because computers are **forgetful**, they won't **remember** unless you tell them to) 
+* Ask people to store the value of `option2` in another variable.
+
+* Let's see if we can display a **message**. 
+
+	We'll use `option2` for now. 
+	
+	Introduce **string concatenation**.
+	
+	`$("p").html("You should " + option2)`
+	
+	
+* Talk about [**Clarke's third law**](http://en.wikipedia.org/wiki/Clarke's_three_laws) `Any sufficiently advanced technology is indistinguishable from magic` to introduce the next step. We could develop an algorithm vased on various	APIs, however for now we'll just ask the computer to **make a random choice** and make it look like it's clever.
+
+* Let's *google* `JS function to get random number`.
+	
+	One of the first results will be from [StackOverflow](http://stackoverflow.com/questions/1527803/)
+
+* Introduce **branching logic**.	
+* Display the **choice** (swap `option2` with `choice`)
+* Bonus: make the message *motivational* with `f*****` or similar 
 
 
-#### Later
+#### OPTIONAL
 
-1. Make `p#message` fade in and fade out on click
+1. Make `p` fade out on click
 * Give the social buttons some behaviour
 
-* [ ] Click on Share and then send to your phone
-* [ ] Get people to tweet their app link to @baddeo (easier than email)
+* [x] Click on Share and then send to your phone
 
-## Style
+## Dress code
 
-1. Setup: `SCSS` (or `SASS`?) with `normalize.css`
-* `p#message`
+1. CSS **final touches**
 
-        p#message
-		{
-		  font-size: 50px;
-		  font-weight: bold;
-		  text-align: center;
-		  position: absolute;
-		  width: 100%;
-		  height: 100%;
-		  background: rgba(173, 255, 47, 0.9); // greenyellow
-		  top: 0;
-		  margin: 0;
-		  padding-top: 20%;
-		
-		  display: none;
-		}
-* `h1` centred
-* **TODO** Loads of styling here...
-* `-webkit-appearance: none;`
+	* `font-size`
+	* `font-weight`
+	* `width`
+	* `margin`
+	* `padding`
+	* tranparency
+	* `border-radius`
+* Style **fonts**, using [Google Fonts](https://www.google.com/fonts)
+* Make the app look proper on a phone. Google `how to stop phone zooming out pages`
+* Make the app **full screen**. Google `how to hide address bar in mobile browser` and you should find [this tutorial](http://www.html5rocks.com/en/mobile/fullscreen/) 
+* Add the app to your phone's **home screen**
+ 
+         <link rel="apple-touch-icon" href="http://i.imgur.com/ln9kdl3.png">
+  
+#### OPTIONAL         	
+
+* `-webkit-appearance: none;` to get rid of inner shadows in `input`
 * [Font-Awesome](http://fortawesome.github.io/Font-Awesome/) for social icons?
 
 
 
 ## What next?
-
-1. Add the app to your phone's **home screen**
- 
-         <link rel="apple-touch-icon" href="http://i.imgur.com/ln9kdl3.png">
  
 * Hook it to an **API** (eg: weather, maps, videos, music, [unistats](http://unistats.direct.gov.uk/)...)
 * Turn it into a **paper-scissors-stone** game
@@ -101,12 +159,3 @@ The [finished app](http://codepen.io/baddeo/full/jsICq/)
 ### Debug
 
 * Form submit on `Enter` only with one `input`, if you have 2+ then you need a `submit` input/button
-
-
-## 03.10
-
-1.  text app link to phone
-* fix viewport
-* add icon
-* style fonts
-* background image
