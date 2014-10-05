@@ -228,3 +228,15 @@
 	{
 		-webkit-animation-duration: 3s; 
 	}
+
+/* DATE */
+
+	.date h3
+	{
+		text-align: left;
+	}
+
+	.date h3 span.highlight
+	{
+		float: right;
+	}
