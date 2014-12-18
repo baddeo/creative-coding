@@ -1,0 +1,85 @@
+/* #SPOT */
+
+	#spot h2, #spot .differences-group
+	{
+		position: absolute;
+		width: 100%;
+		top: -150px;
+	}
+
+	#spot .differences-group
+	{
+		top: 0;
+		/*pointer-events: none;
+	}
+
+	#spot .current-fragment
+	{
+		pointer-events: all;*/
+	}
+
+	/*.reveal .slides section#spot .fragment.differences-group.fade-out 
+	{
+		display: block;
+	}
+	.reveal .slides section#spot .fragment.differences-group 
+	{
+		display: none;
+	}*/
+
+
+/* TODAY */
+
+	#today
+	{
+		position: relative;
+	}
+
+	#today img#app
+	{
+		position: absolute;
+		top: 283%;
+		left: 36%;
+
+		width: 256px;
+		max-height: 512px;
+
+		transition: top .6s .4s cubic-bezier(0, 1.6, 1, 1); 
+	}
+
+	#today.present img#app
+	{
+		/*top: 0;*/
+		top: 68%;
+	}
+
+/* WTF */
+
+	#wtf h1 .highlight:first-child
+	{
+		float: left;
+	}
+
+	#wtf h1 .highlight:last-child
+	{
+		float: right;
+	}
+
+/* POP */
+	
+	#pop h2
+	{
+		width: 66%;
+		margin: auto;
+		clear: both;
+	}
+
+	#pop h2 .highlight
+	{
+		float: left;
+	}
+
+	#pop h2 b
+	{
+		float: right;
+	}
