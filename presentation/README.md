@@ -39,7 +39,7 @@ Code is about **communication**. If I want to talk to my **grandma**, I need to 
 
 It's **instructions** to a computer: extremely powerful, fundamentally thick.
 
-![](https://raw.githubusercontent.com/baddeo/creative-coding/master/RESTaurant/terminal.png) 
+![](https://raw.githubusercontent.com/baddeo/creative-coding/master/images/terminal.png) 
 
 Imagine a computer is your most pedantic **friend**: 
 
